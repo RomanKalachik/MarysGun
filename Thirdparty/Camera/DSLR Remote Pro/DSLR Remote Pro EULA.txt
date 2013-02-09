@@ -1,0 +1,310 @@
+PLEASE READ THIS CAREFULLY BEFORE USING MATERIALS
+
+A: PROPERTY OF LICENSOR 
+
+YOU MAY OBTAIN A COPY OF THIS SOFTWARE PRODUCT BY DOWNLOADING IT
+REMOTELY FROM OUR SERVER AND UPON PAYMENT OF AN ADDITIONAL FEE
+AT THE TIME OF PURCHASE YOU MAY OBTAIN A HARD COPY OF THE
+SOFTWARE ON CD-ROM. THE COPYRIGHT, DATABASE RIGHTS AND ANY OTHER
+INTELLECTUAL PROPERTY RIGHTS IN THE PROGRAMS AND DATA WHICH
+CONSTITUTE THIS SOFTWARE PRODUCT ('THE MATERIALS'), TOGETHER
+WITH CD-ROM (IF PURCHASED) ON WHICH THEY WERE SUPPLIED TO YOU,
+ARE AND REMAIN THE PROPERTY OF BREEZE SYSTEMS LIMITED ('THE
+LICENSOR'). YOU ARE LICENCED TO USE THEM ONLY IF YOU ACCEPT THE
+TERMS AND CONDITIONS SET OUT IN THIS LICENCE AGREEMENT ("THE
+AGREEMENT"). 'USE' MEANS STORING, LOADING, INSTALLING, EXECUTING
+OR DISPLAYING THE MATERIALS.
+
+B: LICENCE ACCEPTANCE PROCEDURE
+
+BY CLICKING ON THE ACCEPTANCE BUTTON WHICH FOLLOWS THE
+AGREEMENT (CLICKING 'YES' IN ANSWER TO THE QUESTION "DO YOU
+ACCEPT ALL THE TERMS OF THE FOLLOWING LICENSE AGREEMENT"), YOU
+INDICATE ACCEPTANCE OF THE AGREEMENT AND EXCLUSION OF LIABILITY
+SET OUT IN THE AGREEMENT. SUCH ACCEPTANCE IS EITHER ON YOUR OWN
+BEHALF OR ON BEHALF OF ANY CORPORATE ENTITY WHICH EMPLOYS YOU OR
+WHICH YOU REPRESENT ('CORPORATE LICENSEE'). IN THIS LICENCE
+AGREEMENT, 'YOU' INCLUDES BOTH THE READER AND ANY CORPORATE
+LICENSEE.
+
+C: LICENCE REJECTION PROCEDURE
+
+YOU SHOULD THEREFORE READ THE AGREEMENT CAREFULLY BEFORE
+CLICKING ON THE TWO ACCEPTANCE BUTTONS. IF YOU DO NOT ACCEPT
+THESE TERMS AND CONDITIONS, YOU SHOULD CLICK ON THE 'NO'
+BUTTON.
+
+
+LICENCE AGREEMENT 
+
+1.Ownership of materials and copies
+The Materials and related documentation are copyrighted works
+of authorship, and are also protected under applicable database
+laws. The Licensor retains ownership of the Materials and all
+subsequent copies of the Materials, regardless of the form in
+which the copies may exist. This licence is not a sale of the
+original Materials or any copies.
+
+2.Licence
+
+2.1 Subject to clauses 2.1.2, 2.1.3 and 2.2, during the trial
+period, the Licensor grants to you a limited, non-exclusive
+licence to:
+
+2.1.1 use one copy of the Materials for use on one desktop
+computer or one laptop computer in object code format only
+owned, leased and/or controlled by you or any member of your
+corporate group, which expression includes the Corporate
+Licensee, the Corporate Licensee's majority-owned subsidiaries,
+any parent company having a majority-owned interest in the
+Corporate Licensee, and such parent's majority-owned
+subsidiaries;
+
+2.1.2 install a second copy of the Materials on a portable
+computer for your own exclusive use in object code format
+provided the Materials on the portable computer are not being
+used at the same time the Materials on the primary computer are
+being used.
+
+2.1.3 this licence is not and does not extend to the use of the
+Materials on or in conjunction with a server and/or a network
+of computers.
+
+2.2 During the trial period:
+
+2.2.1 the terms of this Agreement shall apply in full, with the
+exception of clause 4;
+
+2.2.2 you are entitled to cancel this Agreement and are under
+no obligation to purchase the Materials;  
+
+2.2.3 the use of the Materials will be limited by:
+ (a) a specified time period; or
+ (b) limited functionality; or
+ (c) a combination of (a) and (b).
+
+2.3 Upon payment of the applicable licence fee;
+
+2.3.1 the Licensor grants to you a limited, non-exclusive
+licence to carry on the activities referred to in clause 2.1;
+and 
+
+2.3.2 clause 2.2 shall no longer apply.
+
+3. Licence restrictions
+
+You may not use, copy, modify or transfer the Materials
+(including any related documentation) or any copy, in whole or
+in part, including any print-out of all or part of any database,
+except as expressly provided for in this Agreement. If you
+transfer possession of any copy of the Materials to another
+party except as provided above, your licence is automatically
+terminated. You may not vary, delete or obscure any notices of
+proprietary rights or any product identification or restrictions
+on or in the Materials.
+
+4. No refund policy
+You are expected to use the Materials on your system and to
+thoroughly evaluate usefulness and functionality before making
+a purchase. This "try before you buy" approach is the ultimate
+guarantee that the Materials will perform to your satisfaction,
+therefore, you understand and agree that the Licensor does not
+operate a refund policy. 
+
+5.Upgrades
+
+5.1 You are entitled to free upgrades of the Materials for a
+period of 12 months commencing on the date of purchase. The
+free upgrades relate only to upgrades of the Materials. In the
+event that you require upgrades for a period longer than 12
+months you will need to purchase a new licence at the Licensor
+then prevailing price. 
+
+5.2 For the purposes of this clause 5 an upgrade shall cover
+the provision of patches or fixes to correct errors in the
+Materials and at the sole discretion of the Licensor such
+upgrades may extend to the provision of new applications or
+increased functionality to the Materials. For the avoidance
+of doubt the Licensor reserves the right in its absolute
+discretion to release enhancements to the functionality of the
+Materials as new products and in such circumstances you will
+need to purchase a new licence at the Licensor then prevailing
+price. 
+
+5.3 The Licensor reserves the right in its absolute discretion
+to withdraw the Materials from sale and support at anytime on
+giving 14 days notice and any such notice will be displayed on
+the Licensor's website at www.breezesys.com.
+
+5.4 Upgrades are available only by downloading them from the
+Licensor's website at www.breezesys.com and are not made
+available on CD-ROM.
+
+6. No transfer
+The Materials are licensed only to you. You may not rent, lease,
+sub-lease, sell, assign, pledge, transfer or otherwise dispose
+of the Materials, on a temporary or permanent basis, without the
+prior written consent of the Licensor.
+
+7. Undertakings
+You undertake to:
+
+7.2 ensure that, prior to use of the Materials by your employees
+or agents, all such parties are notified of this Agreement and
+the terms of this Agreement;
+
+7.3 reproduce and include our copyright notice (or such other
+party's notice as specified in the Materials) on all and any
+copies of the Materials, including any partial copies of the
+Materials;
+
+7.4 hold all drawings, specifications, data (including object
+and source codes, and your registration code), software listings
+and all other information relating to the Materials
+confidential and not at any time, during this Agreement or after
+its expiry, disclose the same, whether directly or indirectly,
+to any third party without the Licensor's consent.
+
+8. Limited warranty
+
+8.1 Subject to the limitations and exclusions of liability
+below, the Licensor warrants that the Materials will be free
+from material defects under normal use.
+
+8.2 The Licensor will also indemnify you for personal injury or
+death solely and directly caused by any defect in its products
+or the negligence of its employees.
+
+8.3 The Licensor shall not be liable under the said warranty
+above if the Materials fail to operate in accordance with the
+said warranty as a result of any modification, variation or
+addition to the Materials not performed by the Licensor or
+caused by any abuse, corruption or incorrect use of the
+Materials, including use of the Materials with equipment or
+other software which is incompatible.
+
+9. No other warranties
+The foregoing warranty is made in lieu of any other warranties,
+representations or guarantees of any kind, either expressed or
+implied, including, but not limited to, any implied warranties
+of quality, merchantability, fitness for a particular purpose
+or ability to achieve a particular result. You assume the
+entire risk as to the quality and performance of the Materials.
+The Licensor does not warrant that the Materials will meet your
+requirements or that its operation will be uninterrupted or
+error free.
+
+10. Exclusion of liability
+Except in respect of personal injury or death caused directly
+by the negligence of the Licensor, in no event will the Licensor
+be liable to you for any damages arising from performance or
+non-performance of the Materials for the duration of this
+Agreement or for any damages caused by your failure to perform
+your responsibilities. In addition, the Licensor will not be
+liable for any lost profits, lost savings, loss of data or any
+indirect, special, incidental or consequential damages arising
+out of the use of or inability to use such Materials, even if
+the Licensor has been advised of the possibility of such
+damages. Further the Licensor will not be liable for any damages
+claimed by you based on any third party claim. In no event will
+the Licensor's liability for any claim, whether in contract,
+tort or any other theory of liability, exceed the licence fee
+paid by you, if any. Nothing in this agreement limits liability
+for fraudulent misrepresentation. 
+
+11. Your statutory rights
+This Agreement gives you specific legal rights and you may also
+have other rights that vary from country to country. Some
+jurisdictions do not allow the exclusion of implied warranties,
+or certain kinds of limitations or exclusions of liability, so
+the above limitations and exclusions may not apply to you. Other
+jurisdictions allow limitations and exclusions subject to
+certain condition. In such a case the above limitations and
+exclusions shall apply to the fullest extent permitted by the
+laws of such applicable jurisdictions. If any part of the above
+limitations or exclusions is held to be void or unenforceable,
+such part shall be deemed to be deleted form this agreement and
+the remainder of the limitation or exclusion shall continue in
+full force and effect. Any rights that you may have as a
+consumer (ie a purchaser for private as opposed to business,
+academic or government use) are not affected. 
+
+12. Support 
+There are manual support pages available online at
+www.breezesys.com/support. If you are still having problems an
+e-mail support system is available at support@breezesys.com.
+You are requested to provide as much information as you can.
+The following should be included in your e-mail:
+
+12.2 The version of Windows you are using; 
+
+12.3 The product name and version; and
+
+12.4 Your licence registration code.
+
+The Licensor reserves the right to decline to provide support
+in the event that any of the above information is not provided.
+
+13. Reverse engineering
+Save as permitted by law you agree that you will not attempt to
+reverse compile, modify, translate, or dissemble the Materials
+in whole or in part.
+
+14. Term
+The Agreement is effective until terminated. You may terminate
+it at any time by destroying and/or deleting the Materials from
+your computer together with all copies in any form. It will
+also terminate upon conditions set out elsewhere in this
+agreement or if you fail to comply with any term or condition
+of this Agreement or if you voluntarily return the Materials to
+us. You agree upon termination to destroy the Materials together
+with all copies in any form.
+
+15. Export
+You will comply with all applicable laws, rules, and regulations
+governing export of goods and information, including the laws of
+the countries in which the Materials were created. In
+particular, you will not export or re-export, directly or
+indirectly, separately or as part of a system, the Materials or
+other information relating thereto to any country for which an
+export licence or other approval is required, without first
+obtaining such licence or other approval.
+
+16. Governing law
+The construction validity and performance of this Agreement
+shall be governed in all respects by English law and you agree
+to submit to the jurisdiction of the courts of England.
+The Licensor reserves the right to bring proceedings against
+you in the jurisdiction in which you are normally resident.
+
+17. Entire agreement
+This Agreement constitutes the complete and exclusive statement
+of the agreement between the Licensor and you with respect to
+the subject matter of this Agreement and supersedes all
+proposals, representations, undertakings and prior agreements,
+whether oral or written, and all other communications between
+us and relating to that subject matter.
+
+18. Severability
+Any clause in this agreement that is found to be invalid or
+unenforceable shall be deemed deleted and the remainder of this
+agreement shall not be affected by that deletion.  
+
+19. General
+
+19.1 You agree that the Licensor shall have the right, after
+supplying undertakings as to confidentiality, to audit any
+computer system on which the Materials are installed in order
+to verify compliance with this software licence.
+
+19.2 Failure or neglect by either party to exercise any of its
+rights or remedies under this Agreement will not be construed as
+a waiver of that party's rights nor in any way affect the
+validity of the whole or part of this Agreement nor prejudice
+that party's right to take subsequent action.
+
+19.3 The Licensor reserves the right to alter the terms of this
+licence by posting a notice to that affect on its website at
+www.breezesys.com and the licence so amended shall apply to all
+future downloads of the Materials or upgrades provided under
+clause 5. 

@@ -1,0 +1,113 @@
+[InstallLanguage]
+LangID=ENU
+
+[Strings]
+AppID={0143BC25-D431-44bf-85EA-082CA5EA851D}
+AdminRights=1
+
+[CreateDirs]
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro=
+
+[{55DE134D-A6F7-44D1-921A-403FCA40C25E}.CopyFiles]
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\BBProDisplay.exe=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLR Remote Pro EULA.txt=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSlrRemote.exe=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSlrRemotePro.chm=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\EDSDK.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\EdsImage.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\example_overlay.png=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\focus_stacking.ahk=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\gdiplus.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\libexpat.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothBtn_DSLR.exe=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\photobooth_gsw_sync.ahk=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\photomatix2.bat=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\photomatix3.bat=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PolyImagePro.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\pscAdimg.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\pscCllct.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\pscl2STI.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\pscSetup.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\psdkdll.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\RC2DVLP.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\RcCamDat.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\rcDcd.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\rcDvlp.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\rcParse.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\RCRAPCLS.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\RCSDK.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\DSLRRemoteLib.dll=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\DSLRRemoteLib.exp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\DSLRRemoteLib.h=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\DSLRRemoteLib.lib=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\DSLRRemoteTest.exe=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\interval_shooting.pl=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\ReadMe.txt=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\SpawnGuiApp.exe=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\Source\DSLRRemoteLib.h=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\Source\DSLRRemoteTest.cpp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\Source\DSLRRemoteTest.h=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\Source\DSLRRemoteTest.sln=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\Source\DSLRRemoteTest.vcproj=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\Source\ReadMe.txt=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\1.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\2.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\3.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\4.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\camera_not_connected.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\processing.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\ready.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\taking.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\accept.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\bw.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\cancel.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\color.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\photo.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\print.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\reject.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\replay.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\start.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons\video.bmp=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768\1.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768\2.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768\3.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768\4.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768\camera_not_connected.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768\processing.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768\ready.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768\taking.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024\1.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024\2.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024\3.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024\4.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024\camera_not_connected.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024\processing.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024\ready.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024\taking.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800\1.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800\2.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800\3.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800\4.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800\camera_not_connected.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800\processing.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800\ready.jpg=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800\taking.jpg=
+
+[{55DE134D-A6F7-44D1-921A-403FCA40C25E}.CreateDirs]
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\DSLRRemoteTest\Source=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\buttons=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1024x768=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x1024=
+C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Thirdparty\PhotoRemote\DSLR Remote Pro\PhotoboothImages\EVF 1280x800=
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\DSLR Remote Pro=
+
+[{55DE134D-A6F7-44D1-921A-403FCA40C25E}.AddReg]
+HKCU\Software\BreezeSystems\DSLRRemotePro\100\'Exe'=
+
+[{55DE134D-A6F7-44D1-921A-403FCA40C25E}.Shortcuts]
+C:\Users\Public\Desktop\DSLR Remote Pro.lnk=
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\DSLR Remote Pro\DSLR Remote Pro.lnk=
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\DSLR Remote Pro\DSLR Remote Pro Help.lnk=
+

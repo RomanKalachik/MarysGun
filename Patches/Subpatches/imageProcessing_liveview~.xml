@@ -442,7 +442,7 @@
    </LINK>
    <LINK srcnodeid="57" srcpinname="Y Output Value" dstnodeid="51" dstpinname="TranslateY">
    </LINK>
-   <NODE id="40" systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox">
+   <NODE id="40" systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="Hidden">
    <PIN pinname="Projection" visible="1">
    </PIN>
    <PIN pinname="Layers" visible="1">
@@ -505,7 +505,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="12405" top="2010" width="480" height="480">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -517,7 +517,7 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Enabled">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="1">
+   <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
    </NODE>
    <LINK srcnodeid="69" srcpinname="Y Output Value" dstnodeid="40" dstpinname="Enabled" linkstyle="VHV">

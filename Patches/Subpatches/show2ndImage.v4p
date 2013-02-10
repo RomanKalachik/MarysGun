@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
-   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\show2ndImage.v4p" systemname="show2ndImage" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\show2ndImage.v4p">
-   <BOUNDS type="Window" left="20445" top="2895" width="16965" height="17445">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\subpatches\show2ndImage.v4p" systemname="show2ndImage" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\show2ndImage.v4p">
+   <BOUNDS type="Window" left="20205" top="435" width="16965" height="19050">
    </BOUNDS>
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="1275" top="4275" width="100" height="100">

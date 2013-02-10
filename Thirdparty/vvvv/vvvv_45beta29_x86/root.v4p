@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
    <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Thirdparty\vvvv\vvvv_45beta29_x86\root.v4p" componentmode="Hidden" filename="A:\vvvv\vvvv45\root.v4p" systemname="root">
-   <BOUNDS height="7950" left="2055" top="4335" type="Window" width="10380">
+   <BOUNDS height="7950" left="11280" top="5745" type="Window" width="10380">
    </BOUNDS>
    <NODE componentmode="Hidden" filename="%VVVV%\plugins\NodeCollector.dll" id="-13" nodename="NodeList (VVVV)||plugins\NodeCollector.dll" systemname="NodeList (VVVV)">
    <BOUNDS height="100" left="2955" top="3960" type="Node" width="100">
@@ -167,7 +167,7 @@
    </PIN>
    <PIN pinname="Content Type">
    </PIN>
-   <PIN encoded="0" pinname="Input String" slicecount="2" values="..\..\..\Patches,">
+   <PIN encoded="0" pinname="Input String" slicecount="2" values="..\..\..\Patches,..\..\..\Contributions">
    </PIN>
    <PIN pinname="String Type" slicecount="1" values="Directory">
    </PIN>
@@ -272,6 +272,14 @@
    <BOUNDS type="Box" left="60" top="810" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="32250" top="4710" width="5340" height="8760">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="YUV2RGB.fx (Editor)" filename="..\..\..\Contributions\Filters\YUV2toRGB\effects\YUV2RGB.fx" nodename="YUV2RGB.fx (Editor)" componentmode="Hidden" id="72">
+   <BOUNDS type="Node" left="60" top="810" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="60" top="810" width="6000" height="4500">
+   </BOUNDS>
+   <BOUNDS type="Window" left="8955" top="6045" width="9240" height="11010">
    </BOUNDS>
    </NODE>
    </PATCH>

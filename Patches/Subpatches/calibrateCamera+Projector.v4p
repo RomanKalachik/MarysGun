@@ -630,6 +630,32 @@
    <LINKPOINT x="3188" y="3607">
    </LINKPOINT>
    </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="41" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="8895" top="6210" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8895" top="6210" width="2625" height="1890">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Show SliceIndex" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="18" srcpinname="Output" dstnodeid="21" dstpinname="Enabled">
+   </LINK>
+   <LINK srcnodeid="24" srcpinname="Texture Out" dstnodeid="0" dstpinname="Texture">
+   </LINK>
+   <LINK srcnodeid="22" srcpinname="Video Output" dstnodeid="24" dstpinname="Video">
+   </LINK>
+   <LINK srcnodeid="26" srcpinname="Video" dstnodeid="25" dstpinname="Video Input">
+   </LINK>
    <NODE systemname="VideoIn (OpenCV DirectShow)" filename="..\..\Contributions\plugins\VVVV.Nodes.OpenCV\VVVV.Nodes.VideoInput.dll" nodename="VideoIn (OpenCV DirectShow)" componentmode="Hidden" id="38">
    <BOUNDS type="Node" left="5595" top="6075" width="100" height="100">
    </BOUNDS>
@@ -658,35 +684,9 @@
    <BOUNDS type="Node" left="8835" top="5415" width="100" height="100">
    </BOUNDS>
    </NODE>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="41" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="8895" top="6210" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="8895" top="6210" width="2625" height="1890">
-   </BOUNDS>
-   <PIN pinname="Default" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="File Mask" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
-   </PIN>
-   <PIN pinname="Rows" slicecount="1" values="7">
-   </PIN>
-   <PIN pinname="Show SliceIndex" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Show Grid" slicecount="1" values="1">
-   </PIN>
-   </NODE>
    <LINK srcnodeid="40" srcpinname="Device name" dstnodeid="41" dstpinname="Input String">
    </LINK>
-   <LINK srcnodeid="18" srcpinname="Output" dstnodeid="21" dstpinname="Enabled">
-   </LINK>
-   <LINK srcnodeid="24" srcpinname="Texture Out" dstnodeid="0" dstpinname="Texture">
-   </LINK>
-   <LINK srcnodeid="22" srcpinname="Video Output" dstnodeid="24" dstpinname="Video">
-   </LINK>
-   <LINK srcnodeid="26" srcpinname="Video" dstnodeid="25" dstpinname="Video Input">
-   </LINK>
-   <NODE systemname="Chessboard (EmguCV, DX9)" filename="..\modules\Chessboard (EmguCV, DX9).v4p" nodename="Chessboard (EmguCV, DX9)" componentmode="Hidden" id="35">
+   <NODE systemname="Chessboard (EmguCV, DX9)" filename="..\..\Contributions\modules\Chessboard (EmguCV, DX9).v4p" nodename="Chessboard (EmguCV, DX9)" componentmode="Hidden" id="35">
    <BOUNDS type="Node" left="2235" top="2145" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">

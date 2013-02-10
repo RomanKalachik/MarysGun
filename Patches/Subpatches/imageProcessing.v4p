@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
-   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Patches\subpatches\imageProcessing.v4p" systemname="imageProcessing" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\imageProcessing.v4p">
-   <BOUNDS type="Window" left="19200" top="0" width="19200" height="21150">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\subpatches\imageProcessing.v4p" systemname="imageProcessing" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\imageProcessing.v4p">
+   <BOUNDS type="Window" left="20670" top="0" width="17730" height="21150">
    </BOUNDS>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="14">
    <BOUNDS type="Node" left="2940" top="300" width="100" height="100">
@@ -252,22 +252,18 @@
    </LINK>
    <LINK srcnodeid="14" srcpinname="Y Output Value" dstnodeid="5" dstpinname="Insert">
    </LINK>
-   <NODE systemname="GrayDifference (EX9.Texture Filter)" filename="..\..\Contributions\modules\GrayDifference (EX9.Texture Filter).v4p" nodename="GrayDifference (EX9.Texture Filter)" componentmode="Hidden" id="61">
-   <BOUNDS type="Node" left="9810" top="4905" width="100" height="100">
+   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="64">
+   <BOUNDS type="Node" left="120" top="10605" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="AdjustB">
-   </PIN>
-   <PIN pinname="AdjustG">
-   </PIN>
-   <PIN pinname="AdjustR">
-   </PIN>
-   <BOUNDS type="Window" left="12435" top="2115" width="13740" height="8340">
+   <BOUNDS type="Box" left="120" top="10605" width="8250" height="5940">
    </BOUNDS>
-   <PIN pinname="Invert">
-   </PIN>
-   <PIN pinname="Tex0" visible="1" slicecount="1" values="||">
+   <BOUNDS type="Window" left="21255" top="11370" width="6240" height="5010">
+   </BOUNDS>
+   <PIN pinname="Layers" visible="1">
    </PIN>
    </NODE>
+   <LINK srcnodeid="49" srcpinname="Layer" dstnodeid="64" dstpinname="Layers">
+   </LINK>
    <NODE systemname="Invert+Refine (EX9.Texture Filter)" filename="..\..\Contributions\modules\Invert+Refine (EX9.Texture Filter).v4p" nodename="Invert+Refine (EX9.Texture Filter)" componentmode="Hidden" id="63">
    <BOUNDS type="Node" left="7080" top="4695" width="100" height="100">
    </BOUNDS>
@@ -297,17 +293,5 @@
    <LINK srcnodeid="13" srcpinname="Output" dstnodeid="63" dstpinname="Tex0">
    </LINK>
    <LINK srcnodeid="63" srcpinname="Output" dstnodeid="3" dstpinname="Texture In 4">
-   </LINK>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="64">
-   <BOUNDS type="Node" left="120" top="10605" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="120" top="10605" width="8250" height="5940">
-   </BOUNDS>
-   <BOUNDS type="Window" left="21255" top="11370" width="6240" height="5010">
-   </BOUNDS>
-   <PIN pinname="Layers" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="49" srcpinname="Layer" dstnodeid="64" dstpinname="Layers">
    </LINK>
    </PATCH>

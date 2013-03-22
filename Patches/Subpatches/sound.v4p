@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
    <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\subpatches\sound.v4p" systemname="sound" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\sound.v4p">
-   <BOUNDS type="Window" left="4815" top="1740" width="14010" height="13680">
+   <BOUNDS type="Window" left="0" top="0" width="18825" height="18180">
    </BOUNDS>
    <NODE componentmode="InABox" id="32" nodename="IOBox (String)" systemname="IOBox (String)">
    <BOUNDS height="0" left="11490" top="13170" type="Node" width="0">
@@ -454,10 +454,10 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="52" systemname="IOBox (String)" exposed="1">
-   <BOUNDS type="Node" left="10980" top="795" width="3765" height="270">
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="52" systemname="IOBox (String)" exposed="0">
+   <BOUNDS type="Node" left="5010" top="12660" width="3765" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="10980" top="795" width="5580" height="570">
+   <BOUNDS type="Box" left="5010" top="12660" width="5580" height="570">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="2" encoded="0" values="|I:\AUDIO\Samples\VGEE\VEE Effects\VEE FX 048.wav|,|I:\AUDIO\Samples\VGEE\VEE Effects\VEE FX 064.wav|">
    </PIN>
@@ -499,9 +499,9 @@
    <LINK srcnodeid="95" srcpinname="Y Output Value" dstnodeid="96" dstpinname="Input">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="97">
-   <BOUNDS type="Node" left="6546" top="1545" width="100" height="100">
+   <BOUNDS type="Node" left="2265" top="870" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="6546" top="1545" width="480" height="480">
+   <BOUNDS type="Box" left="2265" top="870" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Value Type" slicecount="1" values="Boolean">
    </PIN>
@@ -513,9 +513,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="107" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="13185" top="1995" width="3765" height="270">
+   <BOUNDS type="Node" left="5010" top="13500" width="3765" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="13185" top="1995" width="3765" height="270">
+   <BOUNDS type="Box" left="5010" top="13500" width="3765" height="270">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|I:\AUDIO\Samples\VGEE\VEE Effects\VEE FX 048.wav|">
    </PIN>
@@ -527,7 +527,7 @@
    </PIN>
    </NODE>
    <NODE systemname="FlipFlop (Animation)" nodename="FlipFlop (Animation)" componentmode="Hidden" id="109">
-   <BOUNDS type="Node" left="7308" top="5115" width="100" height="100">
+   <BOUNDS type="Node" left="5958" top="4095" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Set" slicecount="1" visible="1" values="0">
    </PIN>
@@ -557,7 +557,7 @@
    </PIN>
    </NODE>
    <NODE systemname="FlipFlop (Animation)" nodename="FlipFlop (Animation)" componentmode="Hidden" id="121">
-   <BOUNDS type="Node" left="6555" top="3060" width="100" height="100">
+   <BOUNDS type="Node" left="1290" top="4125" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Set" slicecount="1" visible="1" values="0">
    </PIN>
@@ -568,7 +568,11 @@
    <PIN pinname="Inverse Output" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="121" srcpinname="Output" dstnodeid="115" dstpinname="Index">
+   <LINK srcnodeid="121" srcpinname="Output" dstnodeid="115" dstpinname="Index" linkstyle="Bezier">
+   <LINKPOINT x="1350" y="5505">
+   </LINKPOINT>
+   <LINKPOINT x="13785" y="5505">
+   </LINKPOINT>
    </LINK>
    <LINK srcnodeid="96" srcpinname="Up Edge" dstnodeid="121" dstpinname="Reset">
    </LINK>
@@ -583,15 +587,15 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="96" srcpinname="Down Edge" dstnodeid="109" dstpinname="Set" linkstyle="Bezier">
-   <LINKPOINT x="2225" y="3558">
+   <LINKPOINT x="1530" y="3215">
    </LINKPOINT>
-   <LINKPOINT x="7045" y="3553">
+   <LINKPOINT x="6405" y="2875">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="96" srcpinname="Up Edge" dstnodeid="109" dstpinname="Reset" linkstyle="Bezier">
-   <LINKPOINT x="1565" y="3558">
+   <LINKPOINT x="870" y="3215">
    </LINKPOINT>
-   <LINKPOINT x="7660" y="3553">
+   <LINKPOINT x="7005" y="2875">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="96" srcpinname="Up Edge" dstnodeid="124" dstpinname="Input 1">
@@ -625,9 +629,9 @@
    <NODE id="131" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <BOUNDS type="Node" left="4260" top="4935" width="0" height="0">
+   <BOUNDS type="Node" left="3480" top="5355" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="4260" top="4935" width="795" height="240">
+   <BOUNDS type="Box" left="3480" top="5355" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="5.5">
    </PIN>
@@ -643,17 +647,19 @@
    </PIN>
    <PIN pinname="Input 2" visible="1">
    </PIN>
-   <BOUNDS type="Node" left="3525" top="6345" width="100" height="100">
+   <BOUNDS type="Node" left="3225" top="6660" width="100" height="100">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="131" srcpinname="Y Output Value" dstnodeid="132" dstpinname="Input 2">
+   <LINKPOINT x="3750" y="6105">
+   </LINKPOINT>
    </LINK>
    <NODE id="126" nodename="IOBox (Value Advanced)" componentmode="InABox" systemname="IOBox (Value Advanced)">
    <PIN pinname="Y Input Value">
    </PIN>
-   <BOUNDS type="Node" left="3450" top="4395" width="0" height="0">
+   <BOUNDS type="Node" left="3225" top="4710" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="3450" top="4395" width="795" height="240">
+   <BOUNDS type="Box" left="3225" top="4710" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Units" slicecount="1" values="s">
    </PIN>
@@ -667,27 +673,35 @@
    </PIN>
    <PIN pinname="Reset" visible="1">
    </PIN>
-   <BOUNDS type="Node" left="3450" top="2985" width="100" height="100">
+   <BOUNDS type="Node" left="3225" top="4200" width="100" height="100">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="125" srcpinname="Output" dstnodeid="126" dstpinname="Y Input Value">
    </LINK>
-   <LINK srcnodeid="96" srcpinname="Up Edge" dstnodeid="125" dstpinname="Reset">
+   <LINK srcnodeid="96" srcpinname="Up Edge" dstnodeid="125" dstpinname="Reset" linkstyle="Bezier">
+   <LINKPOINT x="1320" y="3098">
+   </LINKPOINT>
+   <LINKPOINT x="3960" y="3098">
+   </LINKPOINT>
    </LINK>
-   <LINK srcnodeid="95" srcpinname="Y Output Value" dstnodeid="125" dstpinname="Run">
+   <LINK srcnodeid="95" srcpinname="Y Output Value" dstnodeid="125" dstpinname="Run" linkstyle="Bezier">
+   <LINKPOINT x="1320" y="2768">
+   </LINKPOINT>
+   <LINKPOINT x="3225" y="2768">
+   </LINKPOINT>
    </LINK>
    <NODE systemname="R (String)" nodename="R (String)" componentmode="Hidden" id="135">
-   <BOUNDS type="Node" left="10155" top="360" width="100" height="100">
+   <BOUNDS type="Node" left="13320" top="2820" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Receive String" slicecount="1" values="|System Path|">
+   <PIN pinname="Receive String" slicecount="1" visible="1" values="|System Path|">
    </PIN>
    <PIN pinname="Input Value" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Add (String)" nodename="Add (String)" componentmode="Hidden" id="136">
-   <BOUNDS type="Node" left="10170" top="780" width="100" height="100">
+   <BOUNDS type="Node" left="13335" top="3240" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Input 2" slicecount="1" values="Assets\Sound">
+   <PIN pinname="Input 2" slicecount="1" values="Sound\">
    </PIN>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -697,7 +711,7 @@
    <LINK srcnodeid="135" srcpinname="Input Value" dstnodeid="136" dstpinname="Input 1">
    </LINK>
    <NODE systemname="Dir (File)" nodename="Dir (File)" componentmode="Hidden" id="137">
-   <BOUNDS type="Node" left="10560" top="3540" width="100" height="100">
+   <BOUNDS type="Node" left="13185" top="4755" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Directory" visible="1">
    </PIN>
@@ -708,40 +722,6 @@
    <PIN pinname="Include Hidden" slicecount="1" values="0">
    </PIN>
    </NODE>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="138" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="9735" top="1920" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="9735" top="1920" width="3315" height="765">
-   </BOUNDS>
-   <PIN pinname="Default" slicecount="1" values="file.foo">
-   </PIN>
-   <PIN pinname="File Mask" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
-   </PIN>
-   <PIN pinname="String Type" slicecount="1" values="Filename">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="137" srcpinname="Filenames" dstnodeid="138" dstpinname="Input String">
-   </LINK>
-   <NODE systemname="Unzip (String)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Unzip (String)" componentmode="Hidden" id="139">
-   <BOUNDS type="Node" left="10425" top="4425" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1">
-   </PIN>
-   <PIN pinname="Output 1" visible="1">
-   </PIN>
-   <PIN pinname="Output Count" slicecount="1" values="2">
-   </PIN>
-   <PIN pinname="Output 5" visible="1">
-   </PIN>
-   <PIN pinname="Output 3" visible="1">
-   </PIN>
-   <PIN pinname="Output 2" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="137" srcpinname="Filenames" dstnodeid="139" dstpinname="Input">
-   </LINK>
    <NODE id="127" systemname="LT (Value)" nodename="LT (Value)" componentmode="Hidden">
    <PIN pinname="Input 2" visible="1">
    </PIN>
@@ -749,7 +729,7 @@
    </PIN>
    <PIN pinname="Input 1" visible="1">
    </PIN>
-   <BOUNDS type="Node" left="3450" top="5460" width="100" height="100">
+   <BOUNDS type="Node" left="3225" top="5775" width="100" height="100">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="131" srcpinname="Y Output Value" dstnodeid="127" dstpinname="Input 2">
@@ -758,34 +738,8 @@
    </LINK>
    <LINK srcnodeid="126" srcpinname="Y Output Value" dstnodeid="127" dstpinname="Input 1" linkstyle="PolyLine">
    </LINK>
-   <NODE systemname="Zip (String)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Zip (String)" componentmode="Hidden" id="149">
-   <BOUNDS type="Node" left="11460" top="4995" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input 1" visible="1" slicecount="1" values="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Assets\Sound\1_target_loop.wav">
-   </PIN>
-   <PIN pinname="Input 2" slicecount="2" visible="1" values="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Assets\Sound\1_target_loop.wav">
-   </PIN>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   </NODE>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="151" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="11400" top="4230" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="11400" top="4230" width="6825" height="555">
-   </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" values="|I:\AUDIO\Samples\VGEE\VEE Effects\VEE FX 048.wav|">
-   </PIN>
-   <PIN pinname="Default" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="File Mask" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="151" srcpinname="Output String" dstnodeid="149" dstpinname="Input 1">
-   </LINK>
    <NODE systemname="Add (String)" nodename="Add (String)" componentmode="Hidden" id="153">
-   <BOUNDS type="Node" left="11700" top="3375" width="100" height="100">
+   <BOUNDS type="Node" left="13350" top="4200" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -797,11 +751,11 @@
    <LINK srcnodeid="136" srcpinname="Output" dstnodeid="153" dstpinname="Input 1">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="154" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="11910" top="2760" width="0" height="0">
+   <BOUNDS type="Node" left="13530" top="3555" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="11910" top="2760" width="825" height="525">
+   <BOUNDS type="Box" left="13530" top="3555" width="825" height="525">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="2" values="\target,\shoot">
+   <PIN pinname="Input String" slicecount="2" values="target\,shoot\">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="text">
    </PIN>
@@ -818,12 +772,8 @@
    </LINK>
    <LINK srcnodeid="153" srcpinname="Output" dstnodeid="137" dstpinname="Directory">
    </LINK>
-   <LINK srcnodeid="139" srcpinname="Output 2" dstnodeid="149" dstpinname="Input 2">
-   </LINK>
-   <LINK srcnodeid="137" srcpinname="Filenames" dstnodeid="115" dstpinname="Input">
-   </LINK>
    <NODE systemname="TogEdge (Animation)" nodename="TogEdge (Animation)" componentmode="Hidden" id="156">
-   <BOUNDS type="Node" left="6915" top="2505" width="100" height="100">
+   <BOUNDS type="Node" left="2265" top="1755" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1">
    </PIN>
@@ -853,7 +803,7 @@
    </PIN>
    <PIN pinname="Filename" visible="1">
    </PIN>
-   <PIN pinname="Device" slicecount="1" values="|Lautsprecher (High Definition Audio-Gerät)|">
+   <PIN pinname="Device" slicecount="1" values="|default device|">
    </PIN>
    <PIN pinname="Play Mode" slicecount="1" values="2D">
    </PIN>
@@ -872,11 +822,7 @@
    </NODE>
    <LINK srcnodeid="112" srcpinname="Position Out" dstnodeid="84" dstpinname="Volume">
    </LINK>
-   <LINK srcnodeid="124" srcpinname="Output" dstnodeid="84" dstpinname="Play" linkstyle="VHV">
-   <LINKPOINT x="1259" y="7995">
-   </LINKPOINT>
-   <LINKPOINT x="67" y="7755">
-   </LINKPOINT>
+   <LINK srcnodeid="124" srcpinname="Output" dstnodeid="84" dstpinname="Play" linkstyle="PolyLine">
    </LINK>
    <LINK srcnodeid="129" srcpinname="Y Output Value" dstnodeid="84" dstpinname="Minimal Distance">
    </LINK>
@@ -889,5 +835,31 @@
    <LINK srcnodeid="115" srcpinname="Output" dstnodeid="84" dstpinname="Filename">
    </LINK>
    <LINK srcnodeid="121" srcpinname="Inverse Output" dstnodeid="84" dstpinname="Loop">
+   </LINK>
+   <LINK srcnodeid="137" srcpinname="Filenames" dstnodeid="115" dstpinname="Input">
+   </LINK>
+   <NODE systemname="String2Enum (Enumerations)" nodename="String2Enum (Enumerations)" componentmode="Hidden" id="159">
+   <BOUNDS type="Node" left="13320" top="2370" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Enum" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="160" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="13305" top="1995" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="13305" top="1995" width="1050" height="240">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="|Path to Assets|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="(nil)">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="160" srcpinname="Output String" dstnodeid="159" dstpinname="String Value">
+   </LINK>
+   <LINK srcnodeid="159" srcpinname="Enum" dstnodeid="135" dstpinname="Receive String">
    </LINK>
    </PATCH>

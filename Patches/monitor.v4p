@@ -1,9 +1,9 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
-   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\monitor.v4p" systemname="monitor" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\monitor.v4p">
-   <BOUNDS height="21150" left="19200" top="0" type="Window" width="19200">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\monitor.v4p" systemname="monitor" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\monitor.v4p">
+   <BOUNDS height="13680" left="-255" top="210" type="Window" width="9825">
    </BOUNDS>
    <NODE id="15" nodename="Group (EX9)" systemname="Group (EX9)">
-   <BOUNDS height="0" left="465" top="7035" type="Node" width="0">
+   <BOUNDS height="270" left="465" top="7845" type="Node" width="14400">
    </BOUNDS>
    <PIN pinname="Layer Template Count" slicecount="1" values="5">
    </PIN>
@@ -51,7 +51,7 @@
    <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="44">
    <BOUNDS type="Node" left="1920" top="1710" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Receive String" slicecount="1" values="TargetTime">
+   <PIN pinname="Receive String" slicecount="1" values="(nil)">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="TargetTime">
    </PIN>
@@ -61,7 +61,7 @@
    <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="45">
    <BOUNDS type="Node" left="1590" top="1305" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Receive String" slicecount="1" values="TargetTimeCurrent">
+   <PIN pinname="Receive String" slicecount="1" values="(nil)">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="TargetTimeCurrent">
    </PIN>
@@ -145,7 +145,7 @@
    </PIN>
    <PIN pinname="ScaleY" visible="1">
    </PIN>
-   <PIN pinname="Transform In" visible="1">
+   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <LINK srcnodeid="52" srcpinname="Transform Out" dstnodeid="50" dstpinname="Transform">
@@ -197,7 +197,7 @@
    </PIN>
    <PIN pinname="ScaleY" visible="1">
    </PIN>
-   <PIN pinname="Transform In" visible="1">
+   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <LINK srcnodeid="56" srcpinname="Transform Out" dstnodeid="54" dstpinname="Transform">
@@ -281,7 +281,7 @@
    <NODE systemname="R (Value)" nodename="R (Value)" componentmode="Hidden" id="62">
    <BOUNDS type="Node" left="6480" top="1995" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Receive String" slicecount="1" values="ReadyToShoot">
+   <PIN pinname="Receive String" slicecount="1" values="(nil)">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="ReadyToShoot">
    </PIN>
@@ -305,7 +305,7 @@
    <NODE systemname="R (Node)" nodename="R (Node)" componentmode="Hidden" id="64">
    <BOUNDS type="Node" left="10365" top="15" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Receive String" slicecount="1" values="|AspectRation Monitor|">
+   <PIN pinname="Receive String" slicecount="1" values="(nil)">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|AspectRation Monitor|">
    </PIN>
@@ -367,7 +367,7 @@
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="Transform In" visible="1">
+   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="ScaleY" visible="1" slicecount="1" values="1">
    </PIN>
@@ -389,7 +389,7 @@
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="2" values="1,1.07">
    </PIN>
-   <PIN pinname="Units" slicecount="1" values="||" encoded="0">
+   <PIN pinname="Units" slicecount="1" encoded="0" values="||">
    </PIN>
    <PIN pinname="Precision" slicecount="1" values="4">
    </PIN>
@@ -397,7 +397,7 @@
    </PIN>
    <PIN pinname="Vector Size" slicecount="1" values="2">
    </PIN>
-   <PIN pinname="Default" slicecount="1" values="|0, 0|" encoded="0">
+   <PIN pinname="Default" slicecount="1" encoded="0" values="|0, 0|">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -405,5 +405,33 @@
    <LINK srcnodeid="70" srcpinname="Y Output Value" dstnodeid="68" dstpinname="ScaleX">
    </LINK>
    <LINK srcnodeid="70" srcpinname="Y Output Value" dstnodeid="68" dstpinname="ScaleY">
+   </LINK>
+   <NODE systemname="NormalAndDepth (EX9.Effect)" filename="%VVVV%\lib\nodes\effects\NormalAndDepth.fx" nodename="NormalAndDepth (EX9.Effect)" componentmode="Hidden" id="73">
+   <BOUNDS type="Node" left="23625" top="8955" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="XFile (EX9.Geometry Load)" nodename="XFile (EX9.Geometry Load)" componentmode="Hidden" id="72">
+   <BOUNDS type="Node" left="23865" top="8130" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Mesh" visible="1">
+   </PIN>
+   <PIN pinname="Filename" slicecount="1" values="..\..\..\Artwork\gun_model_shape.x">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="72" srcpinname="Mesh" dstnodeid="73" dstpinname="Mesh">
+   </LINK>
+   <NODE systemname="Transform (Transform 3d)" nodename="Transform (Transform 3d)" componentmode="Hidden" id="71">
+   <BOUNDS type="Node" left="24270" top="7650" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="71" srcpinname="Transform Out" dstnodeid="73" dstpinname="Transform">
    </LINK>
    </PATCH>

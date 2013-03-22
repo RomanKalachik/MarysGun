@@ -1,0 +1,111 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha29.3.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Contributions\Modules\deckLink+YUV2toRGB (VideoIn).v4p" systemname="deckLink+YUV2toRGB (VideoIn)" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Contributions\Modules\deckLink+YUV2toRGB (VideoIn).v4p">
+   <BOUNDS type="Window" left="21750" top="1815" width="9000" height="6000">
+   </BOUNDS>
+   <NODE systemname="VideoIn (DeckLink EX9.Texture)" filename="..\plugins\VVVV.Nodes.KC.DeckLink.dll" nodename="VideoIn (DeckLink EX9.Texture)" componentmode="Hidden" id="5">
+   <BOUNDS type="Node" left="1335" top="1935" width="1830" height="270">
+   </BOUNDS>
+   <PIN pinname="Device" visible="1">
+   </PIN>
+   <PIN pinname="Texture Out" visible="1">
+   </PIN>
+   <PIN pinname="Video mode">
+   </PIN>
+   <BOUNDS type="Box" left="1335" top="1935">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="ListDevices (DeckLink)" filename="..\plugins\VVVV.Nodes.KC.DeckLink.dll" nodename="ListDevices (DeckLink)" componentmode="Hidden" id="4">
+   <BOUNDS type="Node" left="1335" top="1275" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Device" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="1335" top="1275">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="4" srcpinname="Device" dstnodeid="5" dstpinname="Device">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="3" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="1335" top="525" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1335" top="525" width="480" height="480">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Refresh">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="4" dstpinname="Refresh">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="2" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="3090" top="2265" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3090" top="2265" width="2715" height="450">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Status">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="5" srcpinname="Status" dstnodeid="2" dstpinname="Input String">
+   </LINK>
+   <NODE nodename="IOBox (Enumerations)" componentmode="InABox" id="1" systemname="IOBox (Enumerations)">
+   <BOUNDS type="Node" left="1905" top="1410" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1905" top="1410" width="1590" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Enum" slicecount="1" values="bmdModeHD1080i5994">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Video mode|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="1" srcpinname="Output Enum" dstnodeid="5" dstpinname="Video mode">
+   </LINK>
+   <NODE id="0" systemname="YUV2toRGB (EX9.Texture Filter)" filename="..\Filters\YUV2toRGB\YUV2toRGB (EX9.Texture Filter).v4p" nodename="YUV2toRGB (EX9.Texture Filter)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Input" visible="1" pintype="Input">
+   </PIN>
+   <BOUNDS type="Node" left="1335" top="2850" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1" pintype="Output">
+   </PIN>
+   <BOUNDS type="Window" left="8625" top="7095" width="6165" height="6030">
+   </BOUNDS>
+   <BOUNDS type="Box" left="150" top="285" width="4800" height="3600">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" encoded="0" values="||">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Patch" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="5" srcpinname="Texture Out" dstnodeid="0" dstpinname="Input">
+   </LINK>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="6" systemname="IOBox (Node)">
+   <BOUNDS type="Node" left="1335" top="3540" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1335" top="3540" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Output">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Output" dstnodeid="6" dstpinname="Input Node">
+   </LINK>
+   </PATCH>

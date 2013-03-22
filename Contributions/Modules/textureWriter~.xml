@@ -1,0 +1,261 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Contributions\Modules\textureWriter.v4p" systemname="textureWriter" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Contributions\Modules\textureWriter.v4p">
+   <BOUNDS type="Window" left="3210" top="1290" width="10830" height="9750">
+   </BOUNDS>
+   <NODE systemname="FrameCounter (Animation)" nodename="FrameCounter (Animation)" componentmode="Hidden" id="6">
+   <BOUNDS type="Node" left="6675" top="4950" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Frame Count" visible="1">
+   </PIN>
+   <PIN pinname="Reset" visible="1">
+   </PIN>
+   <PIN pinname="Enable" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="8" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="8145" top="8865" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8145" top="8865" width="1380" height="300">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="text">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Frames">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="9" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="7380" top="2370" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="7380" top="2370" width="480" height="480">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Start">
+   </PIN>
+   </NODE>
+   <NODE systemname="TogEdge (Animation)" nodename="TogEdge (Animation)" componentmode="Hidden" id="10">
+   <BOUNDS type="Node" left="7380" top="3495" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Down Edge" visible="1">
+   </PIN>
+   <PIN pinname="Up Edge" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="10" dstpinname="Input">
+   </LINK>
+   <NODE systemname="FormatValue (String)" nodename="FormatValue (String)" componentmode="Hidden" id="13">
+   <BOUNDS type="Node" left="6690" top="5295" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Characters before Comma" slicecount="1" values="8">
+   </PIN>
+   <PIN pinname="Leading Zeroes" slicecount="1" values="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Frame Count" dstnodeid="13" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="13" srcpinname="Output" dstnodeid="8" dstpinname="Input String" linkstyle="VHV">
+   <LINKPOINT x="6720" y="6165">
+   </LINKPOINT>
+   <LINKPOINT x="8175" y="6165">
+   </LINKPOINT>
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="16" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2235" top="4590" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2235" top="4590" width="840" height="240">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="|..\..\..\..\DOKU\2013-03-18 ProjectorAnimation|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Directory">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Directory">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Add (String)" nodename="Add (String)" componentmode="Hidden" id="17">
+   <BOUNDS type="Node" left="2250" top="7380" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1" slicecount="1" values="\">
+   </PIN>
+   <PIN pinname="Input Count" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Input 3" visible="1">
+   </PIN>
+   <PIN pinname="Input 4" slicecount="1" values="_">
+   </PIN>
+   <PIN pinname="Input 5" visible="1">
+   </PIN>
+   <PIN pinname="Input 6" slicecount="1" values=".">
+   </PIN>
+   <PIN pinname="Input 7" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="16" srcpinname="Output String" dstnodeid="17" dstpinname="Input 1">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="18" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2565" top="5175" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2565" top="5175" width="840" height="240">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" values="filename">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="text">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Filename">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="18" srcpinname="Output String" dstnodeid="17" dstpinname="Input 3">
+   </LINK>
+   <NODE systemname="Writer (EX9.Texture)" filename="" nodename="Writer (EX9.Texture)" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="375" top="8895" width="7590" height="270">
+   </BOUNDS>
+   <PIN pinname="FileName" visible="1">
+   </PIN>
+   <PIN pinname="Save" visible="1">
+   </PIN>
+   <PIN pinname="Texture" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Enumerations)" componentmode="InABox" id="19" systemname="IOBox (Enumerations)">
+   <BOUNDS type="Node" left="3225" top="5820" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3225" top="5820" width="840" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Enum" slicecount="1" values="PNG">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|File Format|">
+   </PIN>
+   <PIN pinname="Output Enum" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="19" srcpinname="Output Enum" dstnodeid="0" dstpinname="File Format" linkstyle="VHV">
+   <LINKPOINT x="3255" y="6285">
+   </LINKPOINT>
+   <LINKPOINT x="7935" y="6285">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="Enum2String (Enumerations)" nodename="Enum2String (Enumerations)" componentmode="Hidden" id="20">
+   <BOUNDS type="Node" left="3225" top="6315" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Enum" visible="1">
+   </PIN>
+   <PIN pinname="String Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="19" srcpinname="Output Enum" dstnodeid="20" dstpinname="Enum">
+   </LINK>
+   <NODE systemname="Caps (String)" nodename="Caps (String)" componentmode="Hidden" id="21">
+   <BOUNDS type="Node" left="3225" top="6645" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Caps Mode" slicecount="1" values="LowerCase">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="20" srcpinname="String Value" dstnodeid="21" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="13" srcpinname="Output" dstnodeid="17" dstpinname="Input 5" linkstyle="VHV">
+   <LINKPOINT x="6720" y="5715">
+   </LINKPOINT>
+   <LINKPOINT x="2925" y="5715">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="21" srcpinname="Output" dstnodeid="17" dstpinname="Input 7">
+   </LINK>
+   <LINK srcnodeid="17" srcpinname="Output" dstnodeid="0" dstpinname="FileName">
+   </LINK>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="22" systemname="IOBox (Node)">
+   <BOUNDS type="Node" left="390" top="4635" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="390" top="4635" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Node" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Texture">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="OR (Boolean)" nodename="OR (Boolean)" componentmode="Hidden" id="29">
+   <BOUNDS type="Node" left="7380" top="4200" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Up Edge" dstnodeid="29" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="29" srcpinname="Output" dstnodeid="6" dstpinname="Reset" linkstyle="VHV">
+   <LINKPOINT x="7440" y="4710">
+   </LINKPOINT>
+   <LINKPOINT x="7680" y="4710">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Down Edge" dstnodeid="29" dstpinname="Input 2" linkstyle="VHV">
+   <LINKPOINT x="8025" y="3975">
+   </LINKPOINT>
+   <LINKPOINT x="7740" y="3975">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="22" srcpinname="Output Node" dstnodeid="0" dstpinname="Texture">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Enable" linkstyle="VHV">
+   <LINKPOINT x="7415" y="3300">
+   </LINKPOINT>
+   <LINKPOINT x="6700" y="3300">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="0" dstpinname="Save" linkstyle="VHV">
+   <LINKPOINT x="7415" y="3135">
+   </LINKPOINT>
+   <LINKPOINT x="4165" y="3135">
+   </LINKPOINT>
+   </LINK>
+   </PATCH>

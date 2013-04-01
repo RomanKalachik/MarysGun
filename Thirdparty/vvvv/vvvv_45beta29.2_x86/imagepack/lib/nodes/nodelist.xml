@@ -1,0 +1,1137 @@
+<!DOCTYPE NODELIST ><NODELIST version="45alpha29.3"><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="BoardObjectPoints (OpenCV)" name="BoardObjectPoints" category="OpenCV" version="" filename="modules\Image\OpenCV\BoardObjectPoints (OpenCV).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Board Size X" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Board Size Y" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Board Pitch" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Object XYZ" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Count" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "BoardObjectPoints (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="BoundingBox (DX9)" name="BoundingBox" category="DX9" version="" filename="modules\Image\OpenCV\BoundingBox (DX9).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Bounding boxXYWH" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "BoundingBox (DX9) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="BoundingBox (Transform)" name="BoundingBox" category="Transform" version="" filename="modules\Image\OpenCV\BoundingBox (Transform).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Bounding boxXYWH" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Transform Out" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "BoundingBox (Transform) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="CalibrateProjector (OpenCV)" name="CalibrateProjector" category="OpenCV" version="" filename="modules\Image\OpenCV\CalibrateProjector (OpenCV).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Projection XY" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="World XYZ" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Resolution" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Near" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Far" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Solve" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="View Transform" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Projection Transform" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Reprojection Error" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Success" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "CalibrateProjector (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="CameraCoordsImage (Transform)" name="CameraCoordsImage" category="Transform" version="" filename="modules\Image\OpenCV\CameraCoordsImage (Transform).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Resolution" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Transform Out" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "CameraCoordsImage (Transform) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="CameraCoordsObject (Transform)" name="CameraCoordsObject" category="Transform" version="" filename="modules\Image\OpenCV\CameraCoordsObject (Transform).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Resolution" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Transform Out" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "CameraCoordsObject (Transform) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="CameraCoordsView (Transform)" name="CameraCoordsView" category="Transform" version="" filename="modules\Image\OpenCV\CameraCoordsView (Transform).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Resolution" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Transform Out" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "CameraCoordsView (Transform) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="Chessboard (OpenCV DX9 Advanced)" name="Chessboard" category="OpenCV" version="DX9 Advanced" filename="modules\Image\OpenCV\Chessboard (OpenCV DX9 Advanced).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Resolution" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform In" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Board size XY" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Board Pitch" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Lightness" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Image XY" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Chessboard (OpenCV DX9 Advanced) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="Chessboard (OpenCV DX9)" name="Chessboard" category="OpenCV" version="DX9" filename="modules\Image\OpenCV\Chessboard (OpenCV DX9).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Transform In" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Board Size X" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Board Size Y" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Board Pitch" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Color" direction="Input" subtype="" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform Out" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Chessboard (OpenCV DX9) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="ContourDelauney (OpenCV EX9.Geometry)" name="ContourDelauney" category="OpenCV" version="EX9.Geometry" filename="modules\Image\OpenCV\ContourDelauney (OpenCV EX9.Geometry).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Perimeter" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Apply" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Perimeter" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Apply" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ContourDelauney (OpenCV EX9.Geometry) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="ContourPerimeter (DX9)" name="ContourPerimeter" category="DX9" version="" filename="modules\Image\OpenCV\ContourPerimeter (DX9).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Bin Size" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Width" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ContourPerimeter (DX9) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="DrawBoardCorners (OpenCV DX9 2D)" name="DrawBoardCorners" category="OpenCV" version="DX9 2D" filename="modules\Image\OpenCV\DrawBoardCorners (OpenCV DX9 2D).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Image PointsXY" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="BinSize" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ResolutionXY" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Color" direction="Input" subtype="" slicemode="Spread" visibility="True">
+</PIN><PIN name="Enabled" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "DrawBoardCorners (OpenCV DX9 2D) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="FindCommonImages (OpenCV StereoCalibrate)" name="FindCommonImages" category="OpenCV" version="StereoCalibrate" filename="modules\Image\OpenCV\FindCommonImages (OpenCV StereoCalibrate).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Indices 1" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Image Points 1" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Indices 2" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Image Points 2" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Corner Count" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Select 1" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Image Points 1" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Select 2" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Image Points 2" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Count" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "FindCommonImages (OpenCV StereoCalibrate) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="ImageQuad (OpenCV DX9)" name="ImageQuad" category="OpenCV" version="DX9" filename="modules\Image\OpenCV\ImageQuad (OpenCV DX9).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Image" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="MinRange" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="MaxRange" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Nearest Neighbour" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Enabled" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform Out" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Texture Out" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Pins not properly destroyed in  (missing pingroup.Free in destructor?)
+</TODO><TODO>Help patch "ImageQuad (OpenCV DX9) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="Marker (DX9)" name="Marker" category="DX9" version="" filename="modules\Image\OpenCV\Marker (DX9).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="XY" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Binsize" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Color" direction="Input" subtype="" slicemode="Spread" visibility="True">
+</PIN><PIN name="Aspect Ratio" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform In" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Scale" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Enabled" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Marker (DX9) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="Marker (DX9, 3D)" name="Marker" category="DX9," version="3D" filename="modules\Image\OpenCV\Marker (DX9, 3D).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="XYZ" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Scale" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Enabled" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Marker (DX9, 3D) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="Perspective (OpenCV Intrinsics Transform)" name="Perspective" category="OpenCV" version="Intrinsics Transform" filename="modules\Image\OpenCV\Perspective (OpenCV Intrinsics Transform).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><HELP>create a vvvv type perspective transform from a camera transform created by Intrinisics
+</HELP><AUTHOR>elliot woods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Output" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Intrinsics" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Resolution" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Near" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Far" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Output" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Near" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Far" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Perspective (OpenCV Intrinsics Transform) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="Select (Node)" name="Select" category="Node" version="" filename="modules\Image\OpenCV\Select (Node).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input Node" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Select" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Output Node" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Select (Node) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="SelectMinimumArea (OpenCV Contour)" name="SelectMinimumArea" category="OpenCV" version="Contour" filename="modules\Image\OpenCV\SelectMinimumArea (OpenCV Contour).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Bounding box XYWH" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Area" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Perimeter" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Minimum area" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Bounding box XYWH" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Area" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Perimeter" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "SelectMinimumArea (OpenCV Contour) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="TimingCircuit (OpenCV StructuredLight)" name="TimingCircuit" category="OpenCV" version="StructuredLight" filename="modules\Image\OpenCV\TimingCircuit (OpenCV StructuredLight).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Run" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Stop" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Duration" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Frame Count" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Running" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Frame" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Before Change" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Change" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Reset" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "TimingCircuit (OpenCV StructuredLight) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="VideoOut (OpenCV)" name="VideoOut" category="OpenCV" version="" filename="modules\Image\OpenCV\VideoOut (OpenCV).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Image" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Pins not properly destroyed in  (missing pingroup.Free in destructor?)
+</TODO><TODO>Help patch "VideoOut (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="CalibrateProjectorKinect (OpenNI)" name="CalibrateProjectorKinect" category="OpenNI" version="" filename="modules\Image\OpenNI\CalibrateProjectorKinect (OpenNI).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="RGB Image" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Board size XY" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="World Image" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Calibrate" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Projector Image XY" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Record" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Reset" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Solve" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Resolution XY" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Found Points Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ViewProjection Transform" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Count" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Reprojection Error" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "CalibrateProjectorKinect (OpenNI) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="ContextAndImages (OpenNI)" name="ContextAndImages" category="OpenNI" version="" filename="modules\Image\OpenNI\ContextAndImages (OpenNI).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Mode" direction="Input" subtype="VVVV.Nodes.OpenCV.OpenNI.ImageNodeMode" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Context" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="RGB Image" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="RGB Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Depth Image" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Depth Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="World Image" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="World Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ContextAndImages (OpenNI) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="FullHouse (OpenNI)" name="FullHouse" category="OpenNI" version="" filename="modules\Image\OpenNI\FullHouse (OpenNI).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Context" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Enabled" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Mode" direction="Input" subtype="VVVV.Nodes.OpenCV.OpenNI.ImageNodeMode" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Preview layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Context" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Context" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="RGB Image" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="RGB Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Depth Image" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Depth Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="World Image" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="World Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Normals Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Pins not properly destroyed in  (missing pingroup.Free in destructor?)
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="Normals (OpenNI)" name="Normals" category="OpenNI" version="" filename="modules\Image\OpenNI\Normals (OpenNI).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="World Texture" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Normals Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Pins not properly destroyed in  (missing pingroup.Free in destructor?)
+</TODO><TODO>Help patch "Normals (OpenNI) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="ViewWorld (OpenNI DX9 CameraCoords)" name="ViewWorld" category="OpenNI" version="DX9 CameraCoords" filename="modules\Image\OpenNI\ViewWorld (OpenNI DX9 CameraCoords).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Texture" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="World" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Resolution" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Pins not properly destroyed in  (missing pingroup.Free in destructor?)
+</TODO><TODO>Help patch "ViewWorld (OpenNI DX9 CameraCoords) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="ViewWorld (OpenNI DX9 ProjectedTexture)" name="ViewWorld" category="OpenNI" version="DX9 ProjectedTexture" filename="modules\Image\OpenNI\ViewWorld (OpenNI DX9 ProjectedTexture).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Render State" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="RGB" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="World" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Alpha" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Projector ViewProjection" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Projector Intrinsics" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Projector Resolution" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Undistort" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Undistort" direction="Output" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Pins not properly destroyed in  (missing pingroup.Free in destructor?)
+</TODO><TODO>Help patch "ViewWorld (OpenNI DX9 ProjectedTexture) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="ViewWorld (OpenNI DX9)" name="ViewWorld" category="OpenNI" version="DX9" filename="modules\Image\OpenNI\ViewWorld (OpenNI DX9).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Render State" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Transform" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="RGB" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="World" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="maxjump" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Alpha" direction="Input" subtype="merged subtype" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Layer" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Pins not properly destroyed in  (missing pingroup.Free in destructor?)
+</TODO><TODO>Help patch "ViewWorld (OpenNI DX9) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.PatchFactory" systemname="WorldAndNormals (OpenNI)" name="WorldAndNormals" category="OpenNI" version="" filename="modules\Image\OpenNI\WorldAndNormals (OpenNI).v4p" ignore="0" autoevaluate="0" type="Module" arguments="" ibs="0,0" iws="0,0" icm="2"><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Depth Texture" direction="Input" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Evaluate" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Patch" direction="Output" subtype="Patch -&gt;" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Depth Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="World Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="Normals Texture" direction="Output" subtype="generic" slicemode="Spread" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Pins not properly destroyed in  (missing pingroup.Free in destructor?)
+</TODO><TODO>Help patch "WorldAndNormals (OpenNI) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Change (OpenCV)" name="Change" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ChangeNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Report the number of image frames passed through this node between MainLoop frames
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Output frames" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Change (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="FindBoard (OpenCV)" name="FindBoard" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.FindBoardNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Finds chessboard corners XY
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Board size X" direction="Input" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="Board size Y" direction="Input" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="PositionXY" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Position Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "FindBoard (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Average (OpenCV Temporal)" name="Average" category="OpenCV" version="Temporal" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.TemporalAverageNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Average input image over N frames (outputs at input framerate / N)
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Frames" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ContourPerimeter (OpenCV Split)" name="ContourPerimeter" category="OpenCV" version="Split" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ContourPerimeterSplitNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Split contour perimeter out
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="ContourPerimeter" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="PositionXY" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Position Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Length" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ContourPerimeter (OpenCV Split) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="OpticalFlowLK (OpenCV)" name="OpticalFlowLK" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.OpticalFlowLKNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Perform LK optical flow on image
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Size" direction="Input" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "OpticalFlowLK (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="FrameDifference (OpenCV)" name="FrameDifference" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.FrameDifferenceNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Output difference between frames
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Threshold" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Threshold Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Difference Mode" direction="Input" subtype="VVVV.Nodes.OpenCV.TDifferenceMode" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "FrameDifference (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Sobel (OpenCV)" name="Sobel" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.SobelNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Find the 2D derivative of an image using the Sobel filter
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="X Order" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Y Order" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Aperture size" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Sobel (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="WithinRange (OpenCV Filter, Scalar)" name="WithinRange" category="OpenCV" version="Filter, Scalar" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.WithinRangeNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Less than
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Minimum" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Maximum" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "WithinRange (OpenCV Filter, Scalar) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ObjectTracking (OpenCV)" name="ObjectTracking" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.Tracking.ObjectTrackingNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Tracks faces and eyes
+</HELP><AUTHOR>alg, sugokuGENKI
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Haar Table" direction="Input" subtype="" slicemode="Single" visibility="True">
+</PIN><PIN name="Scale Factor" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Min Neighbors" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Min Width" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Min Height" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="PositionXY" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Position Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ScaleXY" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Scale Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ObjectTracking (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Contour (OpenCV)" name="Contour" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ContourNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Finds contours in binary image
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Approximation" direction="Input" subtype="VVVV.Nodes.OpenCV.ContourApproximation" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Poly approximation accuracy" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Bounding boxXYZW" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Bounding box Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Area" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Area Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Perimeter" direction="Output" subtype="ContourPerimeter" slicemode="Manual" visibility="True">
+</PIN><PIN name="Perimeter Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Contour (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="FrameDelay (OpenCV)" name="FrameDelay" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.FrameDelayNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Delay output by 1 frame
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "FrameDelay (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="S+H (OpenCV)" name="S+H" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.S_HNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>S+H an Image
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Set" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "S+H (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Pipet (OpenCV)" name="Pipet" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.PipetNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Pipet in image
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Position px" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Output" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Output Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ConvertScale (OpenCV)" name="ConvertScale" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ConvertScaleNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Scale and offset an Image by a Value
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Scale" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Offset" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ConvertScale (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ContourDelauney (OpenCV)" name="ContourDelauney" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ContourDelauneyNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Convert contour perimeter to triangles
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="ContourPerimeter" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Apply" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Vertex positionXY" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Vertex position Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Triangle area" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Triangle area Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Triangle centroidXY" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Triangle centroid Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ContourDelauney (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Template (OpenCV Filter)" name="Template" category="OpenCV" version="Filter" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.TemplateNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Template node for a threaded filter
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Add" direction="Input" subtype="" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Template (OpenCV Filter) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ImageResize (OpenCV)" name="ImageResize" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ImageResizeNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Resize Image
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><CREDITS>alg
+</CREDITS><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Width" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Height" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ImageResize (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Grayscale (OpenCV)" name="Grayscale" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.GrayscaleNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Converts incoming images to respective grayscale versions
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Grayscale (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="AsTexture (OpenCV)" name="AsTexture" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.AsTextureNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Converts IPLImage to Texture
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Image" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Texture Out" direction="Output" subtype="Texture -&gt;" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "AsTexture (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="OpticalFlowHS (OpenCV)" name="OpticalFlowHS" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.OpticalFlowHSNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Perform HS optical flow on image
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Lambda" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Maximum Iterations" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Use Previous Velocity" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "OpticalFlowHS (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Dilate (OpenCV)" name="Dilate" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.DilateNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Inflate features in image, i.e. grow noise
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Iterations" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Dilate (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="AdaptiveThreshold (OpenCV)" name="AdaptiveThreshold" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.AdaptiveThresholdNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Perform an adaptive threshold over the image
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Maximum" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Adaptive Threshold Method" direction="Input" subtype="Emgu.CV.CvEnum.ADAPTIVE_THRESHOLD_TYPE" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Threshold Type" direction="Input" subtype="Emgu.CV.CvEnum.THRESH" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Block Size" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Constant" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "AdaptiveThreshold (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Cons (OpenCV)" name="Cons" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ConsNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Cons 2 inputs (temporary, will replace with templated version when i find it, i.e. &amp;gt;2 inputs. but dont need that right now)
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input 1" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Input 2" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Cons (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="BackgroundSubtract (OpenCV)" name="BackgroundSubtract" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.BackgroundSubtractNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Output difference between current frame and captured background
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Set" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Threshold" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Threshold Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Difference Mode" direction="Input" subtype="VVVV.Nodes.OpenCV.TDifferenceMode" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "BackgroundSubtract (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="AvgSdv (OpenCV Mean)" name="AvgSdv" category="OpenCV" version="Mean" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.AvgSdvNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Returns the average and standard deviation of the pixel values
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Average" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Average Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Standard Deviation" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Standard Deviation Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "AvgSdv (OpenCV Mean) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="FindExtrinsics (OpenCV)" name="FindExtrinsics" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.FindExtrinsicsNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Find extrinsics of object
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Object pointsXYZ" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Object points Bin Size" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Image pointsXYZ" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Image points Bin Size" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Intrinsics" direction="Input" subtype="IntrinsicCameraParameters" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Extrinsics" direction="Output" subtype="ExtrinsicCameraParameters" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "FindExtrinsics (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Space (Image.StructuredLight)" name="Space" category="Image.StructuredLight" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.StructuredLight.SpaceNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Preview structured light data
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="ScanSet" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Threshold" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Dataset" direction="Input" subtype="VVVV.Nodes.OpenCV.StructuredLight.TDataSet" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Timestamp delay ms" direction="Input" subtype="Integer" slicemode="UpStream" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Space (Image.StructuredLight) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Renderer (OpenCV)" name="Renderer" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.OpenCV.RendererNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Render an EmguCV Image
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Slice" direction="Input" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Renderer (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="SolvePnP (OpenCV)" name="SolvePnP" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.SolvePnPNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Find pose of object given camera intrinsics
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Object PointsXYZ" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Object Points Bin Size" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Image PointsXY" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Image Points Bin Size" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Intrinsics" direction="Input" subtype="Intrinsics" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Extrinsics" direction="Output" subtype="Extrinsics" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "SolvePnP (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Encode (Image.StructuredLight)" name="Encode" category="Image.StructuredLight" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.StructuredLight.EncodeNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Encode structured light patterns
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Frame" direction="Input" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="Payload" direction="Input" subtype="IPayload" slicemode="Single" visibility="True">
+</PIN><PIN name="Timestamp delay ms" direction="Input" subtype="Integer" slicemode="UpStream" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Timestamps" direction="Output" subtype="TimestampRegister" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ImageLoad (OpenCV)" name="ImageLoad" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ImageLoadNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Loads RGB texture
+</HELP><AUTHOR>alg
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Filename" direction="Input" subtype="" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Reload" direction="Input" subtype="Trigger" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Timestamp delay ms" direction="Input" subtype="Integer" slicemode="UpStream" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ImageLoad (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="&gt; (OpenCV Filter, Scalar)" name="&gt;" category="OpenCV" version="Filter, Scalar" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.GTNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Greater than
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Input 2" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Pass original" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "&gt; (OpenCV Filter, Scalar) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="&lt; (OpenCV Filter, Scalar)" name="&lt;" category="OpenCV" version="Filter, Scalar" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.LTNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Less than
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Input 2" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Pass original" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "&lt; (OpenCV Filter, Scalar) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="= (OpenCV Filter, Scalar)" name="=" category="OpenCV" version="Filter, Scalar" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.EQNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Equal to
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Input 2" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Pass original" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "= (OpenCV Filter, Scalar) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="VideoIn (OpenCV)" name="VideoIn" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.CaptureVideoNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Captures from DShow device to IPLImage
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Device ID" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Width" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Height" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Timestamp delay ms" direction="Input" subtype="Integer" slicemode="UpStream" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Decode (Image.StructuredLight)" name="Decode" category="Image.StructuredLight" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.StructuredLight.DecodeNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Decode structured light patterns
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Apply" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Reset" direction="Input" subtype="Trigger" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Properties" direction="Input" subtype="IPayload" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Timestamps" direction="Input" subtype="TimestampRegister" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Wait for timestamp" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Output" direction="Output" subtype="ScanSet" slicemode="Manual" visibility="True">
+</PIN><PIN name="Frames detected" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Noise (OpenCV Generator)" name="Noise" category="OpenCV" version="Generator" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.NoiseNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Generator 32F noise
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Refresh" direction="Input" subtype="Trigger" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Dimension" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Timestamp delay ms" direction="Input" subtype="Integer" slicemode="UpStream" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Noise (OpenCV Generator) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Writer (OpenCV Image)" name="Writer" category="OpenCV" version="Image" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.WriterImageNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Save a still image file
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Filename" direction="Input" subtype="" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Do Save" direction="Input" subtype="Trigger" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Success" direction="Output" subtype="Boolean" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="StereoCalibrate (OpenCV)" name="StereoCalibrate" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.StereoCalibrateNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Finds extrinsics between 2 cameras
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Image Points 1XY" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Image Points 2XY" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Object PointsXYZ" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="ResolutionXY" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Intrinsics 1" direction="Input" subtype="Intrinsics" slicemode="Single" visibility="True">
+</PIN><PIN name="Intrinsics 2" direction="Input" subtype="Intrinsics" slicemode="Single" visibility="True">
+</PIN><PIN name="Do" direction="Input" subtype="Trigger" slicemode="Single" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Extrinsics" direction="Output" subtype="Extrinsics" slicemode="Manual" visibility="True">
+</PIN><PIN name="Success" direction="Output" subtype="Boolean" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="GaussianBlur (OpenCV)" name="GaussianBlur" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.GaussianBlurNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Perform LK optical flow on image
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Width" direction="Input" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "GaussianBlur (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Erode (OpenCV)" name="Erode" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ErodeNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Reduce features in image, i.e. remove noise
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Iterations" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Erode (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Not (OpenCV Filter)" name="Not" category="OpenCV" version="Filter" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.NotNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Invert image
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Not (OpenCV Filter) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Framerate (OpenCV)" name="Framerate" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.FramerateNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Report the framerate that an image is being updated at
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Thread mode" direction="Configuration" subtype="VVVV.Nodes.OpenCV.ThreadMode" slicemode="Manual" visibility="True">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Mode" direction="Input" subtype="VVVV.Nodes.OpenCV.FramerateNodeMode" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Framerate fps" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Framerate (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ProjectPoints (OpenCV Split)" name="ProjectPoints" category="OpenCV" version="Split" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ProjectPointsNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Split intrinsics out
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="InputXYZ" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Intrinsics" direction="Input" subtype="IntrinsicCameraParameters" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Extrinsics" direction="Input" subtype="ExtrinsicCameraParameters" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="OutputXY" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ProjectPoints (OpenCV Split) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Canny (OpenCV)" name="Canny" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.CannyNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Find edges in image using Canny filter
+</HELP><AUTHOR>elliotwoods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Input" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Threshold min" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Threshold max" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window size" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Canny (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Info (OpenCV)" name="Info" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.InfoNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Outputs information about the Images in a spread
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Image" direction="Input" subtype="CVImageLink" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Allocated" direction="Output" subtype="Boolean" slicemode="Manual" visibility="True">
+</PIN><PIN name="Width" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Height" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Format" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Info (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="CalibrateCamera (OpenCV)" name="CalibrateCamera" category="OpenCV" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.OpenCV.CalibrateCameraNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Finds intrinsics for a single camera
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Image PointsXY" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Object PointsXYZ" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="ResolutionXY" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Flags" direction="Input" subtype="Emgu.CV.CvEnum.CALIB_TYPE" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Intrinsic Guess" direction="Input" subtype="Intrinsics" slicemode="Single" visibility="True">
+</PIN><PIN name="Coordinates" direction="Input" subtype="VVVV.Nodes.OpenCV.TCoordinateSystem" slicemode="Single" visibility="True">
+</PIN><PIN name="Do" direction="Input" subtype="Trigger" slicemode="Single" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Intrinsics" direction="Output" subtype="Intrinsics" slicemode="Manual" visibility="True">
+</PIN><PIN name="Extrinsics Per Board" direction="Output" subtype="Extrinsics" slicemode="Manual" visibility="True">
+</PIN><PIN name="Reprojection Error" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Success" direction="Output" subtype="Boolean" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "CalibrateCamera (OpenCV) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Payload (Image.StructuredLight)" name="Payload" category="Image.StructuredLight" version="" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.StructuredLight.Payload.PayloadNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Setup a payload
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Width" direction="Input" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="Height" direction="Input" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="Mode" direction="Input" subtype="VVVV.Nodes.OpenCV.StructuredLight.Payload.PayloadMode" slicemode="Single" visibility="True">
+</PIN><PIN name="Balanced" direction="Input" subtype="Boolean" slicemode="Single" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Payload" direction="Output" subtype="IPayload" slicemode="Manual" visibility="True">
+</PIN><PIN name="Frame Count" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Intrinsics (OpenCV Split)" name="Intrinsics" category="OpenCV" version="Split" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.IntrinsicsSplitNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Split intrinsics out
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Intrinsics" direction="Input" subtype="Intrinsics" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Distortion Coefficients" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Distortion Coefficients Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Camera Matrix" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Camera Matrix Bin Size" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Intrinsics (OpenCV Split) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Extrinsics (OpenCV Split)" name="Extrinsics" category="OpenCV" version="Split" filename="plugins\VVVV.Nodes.OpenCV.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.ExtrinsicsSplitNode" ibs="0,0" iws="0,0" icm="0" startable="true"><HELP>Split intrinsics out
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Extrinsics" direction="Input" subtype="Extrinsics" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Extrinsics (OpenCV Split) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Shoot (EDSDK)" name="Shoot" category="EDSDK" version="" filename="plugins\VVVV.Nodes.OpenCV.EDSDK.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.EDSDK.Nodes.InfoNode" ibs="0,0" iws="0,0" icm="0" startable="true"><TAGS>Canon
+</TAGS><HELP>Takes a photo using a Canon camera
+</HELP><AUTHOR>Elliot Woods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Device" direction="Input" subtype="EosCamera" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Save On Camera" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Save On Computer" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Save Location" direction="Input" subtype="" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Shoot" direction="Input" subtype="Trigger" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Shoot (EDSDK) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ReceivePhoto (EDSDK)" name="ReceivePhoto" category="EDSDK" version="" filename="plugins\VVVV.Nodes.OpenCV.EDSDK.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.EDSDK.ReceivePhoto" ibs="0,0" iws="0,0" icm="0" startable="true"><TAGS>Canon
+</TAGS><HELP>Receives photos as OpenCV image assets
+</HELP><AUTHOR>Elliot Woods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Device" direction="Input" subtype="EosCamera" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="On Receive" direction="Output" subtype="Trigger" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ReceivePhoto (EDSDK) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ListDevices (EDSDK)" name="ListDevices" category="EDSDK" version="" filename="plugins\VVVV.Nodes.OpenCV.EDSDK.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.EDSDK.ListDevicesNode" ibs="0,0" iws="0,0" icm="0" startable="true"><TAGS>Canon
+</TAGS><HELP>List connected Canon cameras using EDSDK
+</HELP><AUTHOR>Elliot Woods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Refresh" direction="Input" subtype="Trigger" slicemode="Single" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Device" direction="Output" subtype="EosCamera" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ListDevices (EDSDK) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Info (EDSDK)" name="Info" category="EDSDK" version="" filename="plugins\VVVV.Nodes.OpenCV.EDSDK.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.EDSDK.InfoNode" ibs="0,0" iws="0,0" icm="0" startable="true"><TAGS>Canon
+</TAGS><HELP>List connected Canon cameras using EDSDK
+</HELP><AUTHOR>Elliot Woods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Device" direction="Input" subtype="EosCamera" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Product Name" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Serial Number" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Port Name" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Owner" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Info (EDSDK) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ListCameras (FlyCapture)" name="ListCameras" category="FlyCapture" version="" filename="plugins\VVVV.Nodes.OpenCV.FlyCapture.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.FlyCapture.CameraListNode" ibs="0,0" iws="0,0" icm="0"><HELP>List FlyCapture camera devices
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Refresh" direction="Input" subtype="Trigger" slicemode="Single" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="GUID" direction="Output" subtype="ManagedPGRGuid" slicemode="Manual" visibility="True">
+</PIN><PIN name="Info" direction="Output" subtype="CameraInfo" slicemode="Manual" visibility="True">
+</PIN><PIN name="Count" direction="Output" subtype="Integer" slicemode="Single" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ListCameras (FlyCapture) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Capture (FlyCapture)" name="Capture" category="FlyCapture" version="" filename="plugins\VVVV.Nodes.OpenCV.FlyCapture.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.FlyCapture.CaptureNode" ibs="0,0" iws="0,0" icm="0"><HELP>Capture frames from camera device
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="GUID" direction="Input" subtype="ManagedPGRGuid" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Timestamp delay ms" direction="Input" subtype="Integer" slicemode="UpStream" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Mode" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Framerate" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Capture (FlyCapture) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Info (FlyCapture General)" name="Info" category="FlyCapture" version="General" filename="plugins\VVVV.Nodes.OpenCV.FlyCapture.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.FlyCapture.InfoGeneralNode" ibs="0,0" iws="0,0" icm="0"><HELP>Give device info for FlyCapture camera devices
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Info" direction="Input" subtype="CameraInfo" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Vendor" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Model" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Serial" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Sensor" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Resolution" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Color" direction="Output" subtype="Boolean" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Info (FlyCapture General) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Info (FlyCapture Driver)" name="Info" category="FlyCapture" version="Driver" filename="plugins\VVVV.Nodes.OpenCV.FlyCapture.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.FlyCapture.InfoBusNode" ibs="0,0" iws="0,0" icm="0"><HELP>Give device info for FlyCapture camera devices
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Info" direction="Input" subtype="CameraInfo" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Driver" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Type" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Firmware" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Bus" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="Bus Speed" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="PCIe Speed" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="User Defined Name" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Node number" direction="Output" subtype="Integer" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Info (FlyCapture Driver) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ListDevices (OpenCV OpenNI)" name="ListDevices" category="OpenCV" version="OpenNI" filename="plugins\VVVV.Nodes.OpenCV.OpenNI.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.OpenCV.OpenNI.ListDevicesNode" ibs="0,0" iws="0,0" icm="0"><HELP>OpenNI context loader
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Refresh" direction="Input" subtype="Trigger" slicemode="Single" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Name" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Vendor" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Version" direction="Output" subtype="Real" slicemode="Manual" visibility="True">
+</PIN><PIN name="Creation Info" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ListDevices (OpenCV OpenNI) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Images (OpenCV OpenNI)" name="Images" category="OpenCV" version="OpenNI" filename="plugins\VVVV.Nodes.OpenCV.OpenNI.dll" ignore="0" autoevaluate="0" type="Plugin" arguments="VVVV.Nodes.OpenCV.OpenNI.ImageNode" ibs="0,0" iws="0,0" icm="0"><HELP>OpenNI Image generator
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Context" direction="Input" subtype="Device" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Mode" direction="Input" subtype="VVVV.Nodes.OpenCV.OpenNI.ImageNodeMode" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Enable RGB" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Enable World" direction="Input" subtype="Boolean" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Image" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Depth" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="World" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Images (OpenCV OpenNI) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="Context (OpenCV OpenNI)" name="Context" category="OpenCV" version="OpenNI" filename="plugins\VVVV.Nodes.OpenCV.OpenNI.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.OpenCV.OpenNI.ContextNode" ibs="0,0" iws="0,0" icm="0"><HELP>OpenNI context loader
+</HELP><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Creation Info" direction="Input" subtype="" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Context" direction="Output" subtype="Device" slicemode="Manual" visibility="True">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "Context (OpenCV OpenNI) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="ListDevices (OpenCV DirectShow)" name="ListDevices" category="OpenCV" version="DirectShow" filename="plugins\VVVV.Nodes.OpenCV.VideoInput.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.OpenCV.VideoInput.ListDevicesNode" ibs="0,0" iws="0,0" icm="0"><HELP>List DirectShow video capture devices
+</HELP><AUTHOR>Elliot Woods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Refresh" direction="Input" subtype="Trigger" slicemode="Single" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Device name" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN><TODO>Help patch "ListDevices (OpenCV DirectShow) help.v4p" not found
+</TODO>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="VideoIn (OpenCV DirectShow)" name="VideoIn" category="OpenCV" version="DirectShow" filename="plugins\VVVV.Nodes.OpenCV.VideoInput.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.OpenCV.VideoInput.VideoInNode" ibs="0,0" iws="0,0" icm="0"><HELP>Captures video from DirectShow devices
+</HELP><AUTHOR>Elliot Woods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Device ID" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Width" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Height" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="FPS" direction="Input" subtype="Integer" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Show Settings" direction="Input" subtype="Trigger" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Properties" direction="Input" subtype="Dictionary&lt;VideoInputSharp.Property, float&gt;" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Timestamp delay ms" direction="Input" subtype="Integer" slicemode="UpStream" visibility="OnlyInspector">
+</PIN><PIN name="Enabled" direction="Input" subtype="Boolean" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Output" direction="Output" subtype="CVImageLink" slicemode="Manual" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="Status" direction="Output" subtype="" slicemode="Manual" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE><NODE factory="VVVV.Hosting.Factories.DotNetPluginFactory" systemname="CaptureProperty (OpenCV DirectShow)" name="CaptureProperty" category="OpenCV" version="DirectShow" filename="plugins\VVVV.Nodes.OpenCV.VideoInput.dll" ignore="0" autoevaluate="-1" type="Plugin" arguments="VVVV.Nodes.OpenCV.VideoInput.CapturePropertyNode" ibs="0,0" iws="0,0" icm="0"><HELP>Set properties for DirectShow video
+</HELP><AUTHOR>Elliot Woods
+</AUTHOR><PIN name="Descriptive Name" direction="Configuration" subtype="" slicemode="Single" visibility="OnlyInspector">
+</PIN><PIN name="Property" direction="Input" subtype="VideoInputSharp.Property" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Value" direction="Input" subtype="Real" slicemode="UpStream" visibility="True">
+</PIN><PIN name="Window Handle" direction="Output" subtype="Integer" slicemode="Single" visibility="False">
+</PIN><PIN name="PropertyPair" direction="Output" subtype="Dictionary&lt;VideoInputSharp.Property, float&gt;" slicemode="Single" visibility="True">
+</PIN><PIN name="ID" direction="Output" subtype="Integer" slicemode="Single" visibility="OnlyInspector">
+</PIN>
+</NODE>
+</NODELIST>

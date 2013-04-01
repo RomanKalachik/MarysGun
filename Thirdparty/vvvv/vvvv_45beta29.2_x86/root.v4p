@@ -167,7 +167,7 @@
    </PIN>
    <PIN pinname="Content Type">
    </PIN>
-   <PIN encoded="0" pinname="Input String" slicecount="2" values="..\..\..\Contributions\,">
+   <PIN encoded="0" pinname="Input String" slicecount="2" values="..\..\..\Contributions\,imagepack\lib\nodes">
    </PIN>
    <PIN pinname="String Type" slicecount="1" values="Directory">
    </PIN>

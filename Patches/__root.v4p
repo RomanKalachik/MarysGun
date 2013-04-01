@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
    <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\__root.v4p" systemname="__root" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\graukanone_v2\__root.v4p" locked="0">
-   <BOUNDS type="Window" left="2970" top="375" width="17340" height="18180">
+   <BOUNDS type="Window" left="255" top="315" width="23580" height="20835">
    </BOUNDS>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
    <BOUNDS type="Node" left="15" top="2715" width="825" height="270">
@@ -50,7 +50,7 @@
    <PIN pinname="Size" slicecount="1" values="16">
    </PIN>
    </NODE>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="FullScreen" id="169">
+   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="Hidden" id="169">
    <BOUNDS type="Node" left="450" top="18105" width="3120" height="270">
    </BOUNDS>
    <BOUNDS type="Box" left="450" top="18105" width="2400" height="1800">
@@ -75,7 +75,7 @@
    </PIN>
    <PIN pinname="Actual Backbuffer Height" visible="1">
    </PIN>
-   <PIN pinname="Fullscreen" slicecount="1" values="1">
+   <PIN pinname="Fullscreen" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Enabled" slicecount="1" values="1">
    </PIN>
@@ -107,15 +107,15 @@
    </PIN>
    </NODE>
    <NODE systemname="PerfMeter (Debug)" filename="%VVVV%\lib\nodes\modules\Debug\PerfMeter (Debug).v4p" nodename="PerfMeter (Debug)" componentmode="Hidden" id="193">
-   <BOUNDS type="Node" left="11670" top="14130" width="100" height="100">
+   <BOUNDS type="Node" left="13035" top="780" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="194" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="12585" top="14715" width="0" height="0">
+   <BOUNDS type="Node" left="13935" top="1200" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="12585" top="14715" width="795" height="240">
+   <BOUNDS type="Box" left="13935" top="1200" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Units" slicecount="1" encoded="0" values="||">
    </PIN>
@@ -393,67 +393,9 @@
    </PIN>
    <PIN pinname="X Input Value" slicecount="1" values="1">
    </PIN>
-   </NODE>
-   <NODE systemname="projectorOut" filename="subpatches\projectorOut.v4p" componentmode="InAWindow" id="190" nodename="projectorOut">
-   <BOUNDS type="Node" left="294" top="10815" width="10095" height="270">
-   </BOUNDS>
-   <BOUNDS type="Box" left="294" top="10815" width="4800" height="3600">
-   </BOUNDS>
-   <BOUNDS type="Window" left="2970" top="375" width="17340" height="18180">
-   </BOUNDS>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   <PIN pinname="XY" visible="1">
-   </PIN>
-   <PIN pinname="Texture" visible="1">
-   </PIN>
-   <PIN pinname="show: projectionIdle" visible="1">
-   </PIN>
-   <PIN pinname="show: projectionShoot" visible="1">
-   </PIN>
-   <PIN pinname="show: invertedImage" visible="1">
-   </PIN>
-   <PIN pinname="invertedTexture" visible="1">
-   </PIN>
-   <PIN pinname="refinedTexture" visible="1">
-   </PIN>
-   <PIN pinname="show: refinedImage" visible="1" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="target" visible="1">
-   </PIN>
-   <PIN pinname="Shot" visible="1">
-   </PIN>
-   <PIN pinname="show: white Calibration" visible="1">
-   </PIN>
-   <PIN pinname="Shoot" visible="1">
-   </PIN>
-   <PIN pinname="Target" visible="1" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="show white" visible="1" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="show 1st image" visible="1">
-   </PIN>
-   <PIN pinname="show 1st Image" visible="1" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Idle" visible="1" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Texture In" visible="1" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Texture Final" visible="1" slicecount="1" values="||">
+   <PIN pinname="Y Output Value" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="190" srcpinname="Layer" dstnodeid="233" dstpinname="Input 1" linkstyle="Bezier">
-   <LINKPOINT x="360" y="11925">
-   </LINKPOINT>
-   <LINKPOINT x="1995" y="11925">
-   </LINKPOINT>
-   </LINK>
-   <LINK srcnodeid="249" srcpinname="Y Output Value" dstnodeid="190" dstpinname="VideoTexture" linkstyle="VHV">
-   <LINKPOINT x="1380" y="6542">
-   </LINKPOINT>
-   <LINKPOINT x="330" y="6406">
-   </LINKPOINT>
-   </LINK>
    <NODE systemname="arduino" filename="Subpatches\input\arduino.v4p" nodename="Subpatches\input\arduino.v4p" componentmode="Hidden" id="214">
    <BOUNDS type="Node" left="10560" top="3570" width="100" height="100">
    </BOUNDS>
@@ -535,9 +477,9 @@
    </PIN>
    </NODE>
    <NODE systemname="logic" filename="subpatches\logic.v4p" componentmode="InAWindow" id="197" nodename="subpatches\logic.v4p">
-   <BOUNDS type="Node" left="300" top="7125" width="10095" height="270">
+   <BOUNDS type="Node" left="555" top="7665" width="10095" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="300" top="7125" width="4800" height="3600">
+   <BOUNDS type="Box" left="555" top="7665" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="-5010" top="-21435" width="14880" height="20790">
    </BOUNDS>
@@ -587,29 +529,19 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="240" srcpinname="Y Output Value" dstnodeid="197" dstpinname="shoot" linkstyle="Bezier">
-   <LINKPOINT x="11310" y="6090">
+   <LINKPOINT x="11395" y="6270">
    </LINKPOINT>
-   <LINKPOINT x="10275" y="6090">
+   <LINKPOINT x="10445" y="6450">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="242" srcpinname="Y Output Value" dstnodeid="197" dstpinname="target" linkstyle="Bezier">
-   <LINKPOINT x="10560" y="6090">
+   <LINKPOINT x="10645" y="6270">
    </LINKPOINT>
-   <LINKPOINT x="3675" y="6090">
+   <LINKPOINT x="3845" y="6450">
    </LINKPOINT>
-   </LINK>
-   <LINK srcnodeid="197" srcpinname="target" dstnodeid="190" dstpinname="Target">
-   </LINK>
-   <LINK srcnodeid="197" srcpinname="show 2nd image" dstnodeid="190" dstpinname="show: refinedImage">
-   </LINK>
-   <LINK srcnodeid="197" srcpinname="show white" dstnodeid="190" dstpinname="show white">
-   </LINK>
-   <LINK srcnodeid="197" srcpinname="show 1st image" dstnodeid="190" dstpinname="show 1st Image">
-   </LINK>
-   <LINK srcnodeid="197" srcpinname="idelmode" dstnodeid="190" dstpinname="Idle">
    </LINK>
    <NODE systemname="imageProcessing_liveview" filename="Subpatches\input\image processing\imageProcessing_liveview.v4p" nodename="Subpatches\input\image processing\imageProcessing_liveview.v4p" componentmode="Hidden" id="247">
-   <BOUNDS type="Node" left="4530" top="4455" width="1995" height="270">
+   <BOUNDS type="Node" left="5265" top="5520" width="1995" height="270">
    </BOUNDS>
    <PIN pinname="Texture In" visible="1">
    </PIN>
@@ -624,46 +556,34 @@
    <BOUNDS type="Window" left="540" top="4005" width="19770" height="13680">
    </BOUNDS>
    </NODE>
-   <LINK srcnodeid="247" srcpinname="Texture Inverted" dstnodeid="190" dstpinname="Texture In" linkstyle="VHV">
-   <LINKPOINT x="4545" y="7770">
-   </LINKPOINT>
-   <LINKPOINT x="3195" y="7770">
-   </LINKPOINT>
-   </LINK>
-   <LINK srcnodeid="247" srcpinname="Texture Refine" dstnodeid="190" dstpinname="Texture Final" linkstyle="VHV">
-   <LINKPOINT x="6510" y="7770">
-   </LINKPOINT>
-   <LINKPOINT x="8910" y="7770">
-   </LINKPOINT>
-   </LINK>
    <LINK srcnodeid="213" srcpinname="Texture Out" dstnodeid="247" dstpinname="Texture In">
-   <LINKPOINT x="1815" y="5235">
+   <LINKPOINT x="1962" y="5448">
    </LINKPOINT>
-   <LINKPOINT x="3765" y="5235">
+   <LINKPOINT x="4059" y="5661">
    </LINKPOINT>
-   <LINKPOINT x="3765" y="3825">
+   <LINKPOINT x="4206" y="4464">
    </LINKPOINT>
-   <LINKPOINT x="4545" y="3825">
+   <LINKPOINT x="5133" y="4677">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="197" srcpinname="shoot 1st image" dstnodeid="247" dstpinname="capture image">
-   <LINKPOINT x="4710" y="7830">
+   <LINKPOINT x="5061" y="8475">
    </LINKPOINT>
-   <LINKPOINT x="5250" y="7830">
+   <LINKPOINT x="5697" y="8580">
    </LINKPOINT>
-   <LINKPOINT x="5250" y="3615">
+   <LINKPOINT x="5793" y="4470">
    </LINKPOINT>
-   <LINKPOINT x="5535" y="3900">
+   <LINKPOINT x="6174" y="4860">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="197" srcpinname="shoot 2nd image" dstnodeid="247" dstpinname="capture 2nd image">
-   <LINKPOINT x="8040" y="7860">
+   <LINKPOINT x="8391" y="8505">
    </LINKPOINT>
-   <LINKPOINT x="6705" y="7860">
+   <LINKPOINT x="7152" y="8610">
    </LINKPOINT>
-   <LINKPOINT x="6705" y="4140">
+   <LINKPOINT x="7248" y="4995">
    </LINKPOINT>
-   <LINKPOINT x="6480" y="3915">
+   <LINKPOINT x="7119" y="4875">
    </LINKPOINT>
    </LINK>
    <NODE systemname="setup" filename="setup.v4p" nodename="setup.v4p" componentmode="InAWindow" id="251">
@@ -673,7 +593,7 @@
    </PIN>
    <PIN pinname="target" visible="1">
    </PIN>
-   <BOUNDS type="Window" left="2970" top="375" width="17340" height="18180">
+   <BOUNDS type="Window" left="255" top="315" width="23580" height="20835">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="251" srcpinname="shoot" dstnodeid="241" dstpinname="Input 2" linkstyle="PolyLine">
@@ -757,9 +677,9 @@
    </PIN>
    <PIN pinname="Shoot" visible="1">
    </PIN>
-   <BOUNDS type="Node" left="10671" top="10851" width="100" height="100">
+   <BOUNDS type="Node" left="10791" top="13611" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="10671" top="10851" width="4800" height="3600">
+   <BOUNDS type="Box" left="10791" top="13611" width="4800" height="3600">
    </BOUNDS>
    <BOUNDS type="Window" left="0" top="0" width="18825" height="18180">
    </BOUNDS>
@@ -777,15 +697,67 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="197" srcpinname="Shoot" dstnodeid="208" dstpinname="Shoot" linkstyle="Bezier">
-   <LINKPOINT x="7890" y="9113">
+   <LINKPOINT x="8100" y="10393">
    </LINKPOINT>
-   <LINKPOINT x="11325" y="9113">
+   <LINKPOINT x="11490" y="11133">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="197" srcpinname="target" dstnodeid="208" dstpinname="Target" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="2865" y="9105">
+   <LINKPOINT x="3075" y="10385">
    </LINKPOINT>
-   <LINKPOINT x="10665" y="9105">
+   <LINKPOINT x="10830" y="11125">
    </LINKPOINT>
    </LINK>
+   <NODE systemname="gfx_projector" filename="Subpatches\gfx_projector.v4p" nodename="Subpatches\gfx_projector.v4p" componentmode="InAWindow" id="261">
+   <BOUNDS type="Node" left="435" top="10605" width="9990" height="270">
+   </BOUNDS>
+   <PIN pinname="show: refinedImage" visible="1">
+   </PIN>
+   <PIN pinname="Evaluate" visible="1" pintype="Input" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Texture Final" visible="1">
+   </PIN>
+   <PIN pinname="show 1st Image" visible="1">
+   </PIN>
+   <PIN pinname="show white" visible="1">
+   </PIN>
+   <PIN pinname="Idle" visible="1">
+   </PIN>
+   <PIN pinname="Target" visible="1">
+   </PIN>
+   <PIN pinname="VideoTexture" visible="1">
+   </PIN>
+   <PIN pinname="Texture In" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="255" top="315" width="23580" height="20835">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="197" srcpinname="show 2nd image" dstnodeid="261" dstpinname="show: refinedImage">
+   </LINK>
+   <LINK srcnodeid="247" srcpinname="Texture Refine" dstnodeid="261" dstpinname="Texture Final">
+   </LINK>
+   <LINK srcnodeid="197" srcpinname="show 1st image" dstnodeid="261" dstpinname="show 1st Image">
+   </LINK>
+   <LINK srcnodeid="197" srcpinname="show white" dstnodeid="261" dstpinname="show white">
+   </LINK>
+   <LINK srcnodeid="197" srcpinname="idelmode" dstnodeid="261" dstpinname="Idle">
+   </LINK>
+   <LINK srcnodeid="197" srcpinname="target" dstnodeid="261" dstpinname="Target">
+   </LINK>
+   <LINK srcnodeid="249" srcpinname="Y Output Value" dstnodeid="261" dstpinname="VideoTexture">
+   </LINK>
+   <LINK srcnodeid="247" srcpinname="Texture Inverted" dstnodeid="261" dstpinname="Texture In">
+   </LINK>
+   <LINK srcnodeid="261" srcpinname="Layer" dstnodeid="202" dstpinname="Layer 1">
+   </LINK>
+   <NODE systemname="captureImage" filename="Subpatches\input\camera input\captureImage.v4p" componentmode="InAWindow" id="262" nodename="Subpatches\input\camera input\captureImage.v4p">
+   <BOUNDS type="Node" left="3165" top="4500" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3165" top="4500" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="11970" top="5505" width="9000" height="6000">
+   </BOUNDS>
+   </NODE>
    </PATCH>

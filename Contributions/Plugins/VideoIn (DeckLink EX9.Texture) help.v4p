@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
    <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Contributions\Plugins\VideoIn (DeckLink EX9.Texture) help.v4p" systemname="VideoIn (DeckLink EX9.Texture) help" filename="C:\vvvv\vvvv-sdk\vvvv45\addonpack\lib\nodes\plugins\VideoIn (DeckLink EX9.Texture) help.v4p">
-   <BOUNDS type="Window" left="21225" top="0" width="14610" height="21150">
+   <BOUNDS type="Window" left="3780" top="465" width="14610" height="13680">
    </BOUNDS>
    <NODE systemname="ListDevices (DeckLink)" filename="%VVVV%\addonpack\lib\nodes\plugins\VVVV.Nodes.KC.DeckLink.dll" nodename="ListDevices (DeckLink)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="585" top="1590" width="100" height="100">
@@ -228,7 +228,15 @@
    </NODE>
    <LINK srcnodeid="1" srcpinname="Frame Received" dstnodeid="28" dstpinname="Y Input Value">
    </LINK>
-   <NODE id="10" systemname="YUV2toRGB (EX9.Texture Filter)" filename="..\Filters\YUV2toRGB\YUV2toRGB (EX9.Texture Filter).v4p" nodename="YUV2toRGB (EX9.Texture Filter)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="29" systemname="IOBox (Node)">
+   <BOUNDS type="Node" left="1200" top="4680" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1200" top="4680" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Texture">
+   </PIN>
+   </NODE>
+   <NODE id="10" systemname="YUV2toRGB (EX9.Texture Filter)" filename="..\effects\YUV2toRGB\YUV2toRGB (EX9.Texture Filter).v4p" nodename="YUV2toRGB (EX9.Texture Filter)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <PIN pinname="Input" visible="1" pintype="Input">
    </PIN>
    <BOUNDS type="Node" left="1185" top="3915" width="100" height="100">
@@ -256,14 +264,6 @@
    <LINKPOINT x="1185" y="3435">
    </LINKPOINT>
    </LINK>
-   <NODE nodename="IOBox (Node)" componentmode="InABox" id="29" systemname="IOBox (Node)">
-   <BOUNDS type="Node" left="1200" top="4680" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1200" top="4680" width="795" height="240">
-   </BOUNDS>
-   <PIN pinname="Descriptive Name" slicecount="1" values="Texture">
-   </PIN>
-   </NODE>
    <LINK srcnodeid="10" srcpinname="Output" dstnodeid="29" dstpinname="Input Node">
    </LINK>
    </PATCH>

@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
-   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\Subpatches\gfx_projector.v4p" systemname="projectorOut" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\projectorOut.v4p" bgcolor="15329769">
-   <BOUNDS type="Window" left="255" top="315" width="23580" height="20835">
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\subpatches\Gfx\gfx_projector.v4p" systemname="projectorOut" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\projectorOut.v4p" bgcolor="15329769">
+   <BOUNDS type="Window" left="0" top="0" width="12165" height="12795">
    </BOUNDS>
    <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="975" top="10125" width="7485" height="270">
@@ -39,7 +39,7 @@
    </PIN>
    </NODE>
    <NODE systemname="R (Node)" nodename="R (Node)" componentmode="Hidden" id="41" hiddenwhenlocked="1">
-   <BOUNDS type="Node" left="19155" top="1170" width="100" height="100">
+   <BOUNDS type="Node" left="15255" top="870" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input Value" visible="1">
    </PIN>
@@ -53,7 +53,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="11865" top="5475" width="480" height="480">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" encoded="0" values="||">
    </PIN>
@@ -70,32 +70,12 @@
    </NODE>
    <LINK srcnodeid="35" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 1">
    </LINK>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="71" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="1833" top="2760" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="1833" top="2760" width="480" height="480">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" encoded="0" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Boolean">
-   </PIN>
-   <PIN pinname="Behavior" slicecount="1" values="Toggle">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="Target">
-   </PIN>
-   <PIN pinname="Y Output Value" visible="1">
-   </PIN>
-   </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="75" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Node" left="6135" top="5475" width="0" height="0">
    </BOUNDS>
    <BOUNDS type="Box" left="6135" top="5475" width="615" height="270">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" encoded="0" values="||">
    </PIN>
@@ -120,20 +100,6 @@
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|show 1st Image|">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
-   </PIN>
-   </NODE>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="77" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="3525" top="2955" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="3525" top="2955" width="795" height="240">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" encoded="0" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="Idle">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="78" systemname="IOBox (Value Advanced)">
@@ -171,31 +137,13 @@
    <LINK srcnodeid="78" srcpinname="Y Output Value" dstnodeid="79" dstpinname="Input 2">
    </LINK>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="81" systemname="IOBox (Node)">
-   <BOUNDS type="Node" left="2610" top="4560" width="0" height="0">
+   <BOUNDS type="Node" left="8190" top="3675" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="2610" top="4560" width="825" height="240">
+   <BOUNDS type="Box" left="8190" top="3675" width="825" height="240">
    </BOUNDS>
    <PIN pinname="Input Node" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="|Texture In|">
-   </PIN>
-   </NODE>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="82" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="930" top="4320" width="0" height="0">
-   </BOUNDS>
-   <BOUNDS type="Box" left="930" top="4320" width="480" height="480">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Boolean">
-   </PIN>
-   <PIN pinname="Behavior" slicecount="1" values="Toggle">
-   </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="VideoTexture">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="83" systemname="IOBox (Node)">
@@ -208,7 +156,39 @@
    <PIN pinname="Descriptive Name" slicecount="1" values="|Texture Final|">
    </PIN>
    </NODE>
-   <NODE systemname="projectionWhiteCalibration" filename="Gfx\projection\projectionWhiteCalibration.v4p" nodename="Gfx\projection\projectionWhiteCalibration.v4p" componentmode="Hidden" id="60">
+   <NODE systemname="mask" filename="Gfx\mask.v4p" componentmode="Hidden" id="15" nodename="Gfx\mask.v4p">
+   <BOUNDS type="Node" left="4680" top="9570" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4680" top="9570" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="1005" top="2400" width="9000" height="6000">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Transform" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Enabled" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="15" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="41" srcpinname="Input Value" dstnodeid="15" dstpinname="Transform" linkstyle="VHV" hiddenwhenlocked="1">
+   <LINKPOINT x="10560" y="4725">
+   </LINKPOINT>
+   <LINKPOINT x="9435" y="5970">
+   </LINKPOINT>
+   </LINK>
+   <NODE systemname="projector_animation" filename="Gfx\projector_animation.v4p" nodename="Gfx\projector_animation.v4p" componentmode="InAWindow" id="86">
+   <BOUNDS type="Node" left="975" top="7560" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="0" width="12165" height="12795">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="86" srcpinname="Layer" dstnodeid="35" dstpinname="Layer 1">
+   </LINK>
+   <NODE systemname="projectionWhiteCalibration" filename="projection\projectionWhiteCalibration.v4p" nodename="projection\projectionWhiteCalibration.v4p" componentmode="Hidden" id="60">
    <BOUNDS type="Node" left="4200" top="7575" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -223,16 +203,16 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="41" srcpinname="Input Value" dstnodeid="60" dstpinname="Transform In" linkstyle="VHV" hiddenwhenlocked="1">
-   <LINKPOINT x="13160" y="3920">
+   <LINKPOINT x="10560" y="3720">
    </LINKPOINT>
-   <LINKPOINT x="10240" y="5065">
+   <LINKPOINT x="8940" y="4965">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="60" srcpinname="Layer" dstnodeid="35" dstpinname="Layer 2">
    </LINK>
    <LINK srcnodeid="75" srcpinname="Y Output Value" dstnodeid="60" dstpinname="show white">
    </LINK>
-   <NODE systemname="showImage" filename="showImage.v4p" nodename="showImage" componentmode="Hidden" id="63" stayontop="0">
+   <NODE systemname="showImage" filename="projection\showImage.v4p" nodename="projection\showImage.v4p" componentmode="Hidden" id="63" stayontop="0">
    <BOUNDS type="Node" left="7455" top="7575" width="1335" height="270">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
@@ -245,25 +225,17 @@
    </BOUNDS>
    <PIN pinname="show 1st Image" visible="1">
    </PIN>
+   <PIN pinname="VideoTexture" slicecount="1" values="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="63" srcpinname="Layer" dstnodeid="35" dstpinname="Layer 3">
    </LINK>
    <LINK srcnodeid="79" srcpinname="Output" dstnodeid="63" dstpinname="show 1st Image">
    </LINK>
-   <LINK srcnodeid="81" srcpinname="Output Node" dstnodeid="63" dstpinname="Texture In" linkstyle="VHV">
-   <LINKPOINT x="2380" y="5225">
-   </LINKPOINT>
-   <LINKPOINT x="8390" y="5230">
-   </LINKPOINT>
+   <LINK srcnodeid="81" srcpinname="Output Node" dstnodeid="63" dstpinname="Texture In" linkstyle="PolyLine">
    </LINK>
-   <LINK srcnodeid="82" srcpinname="Y Output Value" dstnodeid="63" dstpinname="VideoTexture" linkstyle="VHV" hiddenwhenlocked="1">
-   <LINKPOINT x="960" y="5265">
-   </LINKPOINT>
-   <LINKPOINT x="7485" y="5265">
-   </LINKPOINT>
-   </LINK>
-   <NODE id="48" componentmode="Hidden" systemname="show2ndImage" filename="show2ndImage.v4p" nodename="show2ndImage">
-   <PIN pinname="Texture" slicecount="1" values="||">
+   <NODE id="48" componentmode="Hidden" systemname="show2ndImage" filename="projection\show2ndImage.v4p" nodename="projection\show2ndImage.v4p">
+   <PIN pinname="Texture">
    </PIN>
    <PIN pinname="Show" visible="1">
    </PIN>
@@ -284,36 +256,20 @@
    </LINK>
    <LINK srcnodeid="83" srcpinname="Output Node" dstnodeid="48" dstpinname="Texture">
    </LINK>
-   <NODE systemname="mask" filename="Gfx\mask.v4p" componentmode="Hidden" id="15" nodename="Gfx\mask.v4p">
-   <BOUNDS type="Node" left="4680" top="9570" width="100" height="100">
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="87" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="1035" top="5700" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="4680" top="9570" width="4800" height="3600">
+   <BOUNDS type="Box" left="1035" top="5700" width="795" height="240">
    </BOUNDS>
-   <BOUNDS type="Window" left="1005" top="2400" width="9000" height="6000">
-   </BOUNDS>
-   <PIN pinname="Layer" visible="1">
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
    </PIN>
-   <PIN pinname="Transform" visible="1">
+   <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Enabled" slicecount="1" values="0">
+   <PIN pinname="Precision" slicecount="1" values="4">
    </PIN>
-   </NODE>
-   <LINK srcnodeid="15" srcpinname="Layer" dstnodeid="1" dstpinname="Layer 2">
-   </LINK>
-   <LINK srcnodeid="41" srcpinname="Input Value" dstnodeid="15" dstpinname="Transform" linkstyle="VHV" hiddenwhenlocked="1">
-   <LINKPOINT x="13160" y="4925">
-   </LINKPOINT>
-   <LINKPOINT x="10735" y="6070">
-   </LINKPOINT>
-   </LINK>
-   <NODE systemname="projector_animation" filename="Gfx\projector_animation.v4p" nodename="Gfx\projector_animation.v4p" componentmode="InAWindow" id="86">
-   <BOUNDS type="Node" left="975" top="7560" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Window" left="255" top="315" width="23580" height="20835">
-   </BOUNDS>
-   <PIN pinname="Layer" visible="1">
+   <PIN pinname="Descriptive Name" slicecount="1" values="targetLoad">
    </PIN>
    </NODE>
-   <LINK srcnodeid="86" srcpinname="Layer" dstnodeid="35" dstpinname="Layer 1">
+   <LINK srcnodeid="87" srcpinname="Y Output Value" dstnodeid="86" dstpinname="targetLoad">
    </LINK>
    </PATCH>

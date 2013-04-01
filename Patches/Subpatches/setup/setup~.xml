@@ -1,0 +1,137 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\setup.v4p" systemname="setup" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\graukanone_v2\subpatches\setup.v4p">
+   <BOUNDS type="Window" left="0" top="0" width="16950" height="10155">
+   </BOUNDS>
+   <NODE id="37" componentmode="Hidden" nodename="NULL (Enumerations)" systemname="NULL (Enumerations)" hiddenwhenlocked="1">
+   <PIN pinname="Enum" visible="1" slicecount="1" values="ImageType">
+   </PIN>
+   <PIN pinname="Receive" visible="1" slicecount="1" values="RGB">
+   </PIN>
+   <BOUNDS type="Node" height="0" left="13290" top="2715" width="0">
+   </BOUNDS>
+   </NODE>
+   <NODE id="30" systemname="CreateEnum (Enumerations)" nodename="CreateEnum (Enumerations)" componentmode="Hidden" hiddenwhenlocked="1">
+   <PIN pinname="Strings" visible="1" slicecount="3" encoded="0" values="RGB,RGBInverted,RGBInvertedRefined">
+   </PIN>
+   <BOUNDS type="Node" left="12855" top="2415" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Enum Name" slicecount="1" encoded="0" values="ImageType">
+   </PIN>
+   <PIN pinname="Default Index" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Item Count" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="39" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="615" top="615" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="615" top="615" width="1695" height="1050">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="2" values="1024,768">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" encoded="0" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Vector Size" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="2">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="17">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Projection Res|">
+   </PIN>
+   </NODE>
+   <NODE systemname="S (Value)" nodename="S (Value)" componentmode="Hidden" id="41">
+   <BOUNDS type="Node" left="930" top="2250" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Projection Res|">
+   </PIN>
+   <PIN pinname="Send String" slicecount="1" encoded="0" values="|Projection Res|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="39" srcpinname="Y Output Value" dstnodeid="41" dstpinname="Input Value">
+   </LINK>
+   <NODE systemname="PerfMeter (Debug)" filename="%VVVV%\lib\nodes\modules\Debug\PerfMeter (Debug).v4p" nodename="PerfMeter (Debug)" componentmode="Hidden" id="147">
+   <BOUNDS type="Node" left="7680" top="2340" width="1320" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <BOUNDS type="Box" left="7680" top="2340">
+   </BOUNDS>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="146" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="8940" top="2910" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8940" top="2910" width="615" height="330">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" encoded="0" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="fps">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="147" srcpinname="fps" dstnodeid="146" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="keyControls" filename="Subpatches\setup\keyControls.v4p" componentmode="Hidden" id="148" nodename="Subpatches\setup\keyControls.v4p">
+   <BOUNDS type="Node" left="3825" top="2340" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3825" top="2340" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="10155" top="1950" width="9000" height="6000">
+   </BOUNDS>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="149" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="4890" top="3060" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4890" top="3060" width="480" height="480">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="shoot">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="148" srcpinname="shoot" dstnodeid="149" dstpinname="Y Input Value">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="150" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Node" left="3825" top="3075" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3825" top="3075" width="480" height="480">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="target">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="148" srcpinname="target" dstnodeid="150" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="contentReader" filename="Subpatches\setup\contentReader.v4p" componentmode="Hidden" id="151" nodename="Subpatches\setup\contentReader.v4p">
+   <BOUNDS type="Node" left="5865" top="2340" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5865" top="2340" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="1560" top="2430" width="13515" height="8475">
+   </BOUNDS>
+   </NODE>
+   </PATCH>

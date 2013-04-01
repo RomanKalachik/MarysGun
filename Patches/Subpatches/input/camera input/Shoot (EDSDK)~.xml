@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha28.dtd" >
-   <PATCH nodename="C:\vvvv\vvvv-sdk\vvvv45\addonpack\lib\nodes\plugins\Shoot (EDSDK) help.v4p" systemname="Shoot (EDSDK) help" filename="C:\vvvv\vvvv-sdk\vvvv45\addonpack\lib\nodes\plugins\Shoot (EDSDK) help.v4p">
-   <BOUNDS type="Window" left="9900" top="435" width="8895" height="13110">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\Subpatches\input\camera input\Shoot (EDSDK).v4p" systemname="Shoot (EDSDK) help" filename="C:\vvvv\vvvv-sdk\vvvv45\addonpack\lib\nodes\plugins\Shoot (EDSDK) help.v4p">
+   <BOUNDS type="Window" left="2310" top="495" width="17415" height="13110">
    </BOUNDS>
    <NODE systemname="ListDevices (EDSDK)" filename="%VVVV%\addonpack\lib\nodes\plugins\VVVV.Nodes.KC.EDSDK.dll" nodename="ListDevices (EDSDK)" componentmode="Hidden" id="0">
    <BOUNDS type="Node" left="1020" top="375" width="100" height="100">
@@ -19,7 +19,7 @@
    </PIN>
    <PIN pinname="Save Location" encoded="0">
    </PIN>
-   <PIN pinname="Shoot">
+   <PIN pinname="Shoot" visible="1" slicecount="1" values="0">
    </PIN>
    </NODE>
    <LINK srcnodeid="0" srcpinname="Device" dstnodeid="1" dstpinname="Device">
@@ -43,9 +43,9 @@
    </PIN>
    <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Shoot">
-   </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="3" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Node" left="3960" top="2145" width="0" height="0">
    </BOUNDS>
@@ -63,6 +63,8 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Save On Computer|">
    </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Save On Computer">
    </LINK>
@@ -71,7 +73,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5400" top="1395" width="2805" height="240">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" encoded="0" visible="1" values=".">
+   <PIN pinname="Input String" slicecount="1" encoded="0" visible="1" values="..\..\..\..\..\..\..\..\..\Desktop\">
    </PIN>
    <PIN pinname="Default" slicecount="1" encoded="0" values="||">
    </PIN>
@@ -103,6 +105,8 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Save On Camera|">
    </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
    </NODE>
    <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Save On Camera">
    </LINK>
@@ -129,7 +133,7 @@
    </PIN>
    <PIN pinname="Maximum Characters" slicecount="1" values="-1">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="|Product Name|">
+   <PIN pinname="Descriptive Name" slicecount="1" encoded="0" values="||">
    </PIN>
    </NODE>
    <LINK srcnodeid="6" srcpinname="Product Name" dstnodeid="7" dstpinname="Input String">
@@ -151,8 +155,6 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="9" srcpinname="Output Enum" dstnodeid="8" dstpinname="Folder">
-   </LINK>
-   <LINK srcnodeid="8" srcpinname="Output" dstnodeid="4" dstpinname="Input String">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="10" systemname="IOBox (String)">
    <BOUNDS type="Node" left="1020" top="4455" width="0" height="0">
@@ -184,28 +186,6 @@
    <LINKPOINT x="690" y="2855">
    </LINKPOINT>
    </LINK>
-   <NODE systemname="ImageQuad (OpenCV DX9)" filename="%VVVV%\addonpack\lib\nodes\modules\Image\OpenCV\ImageQuad (OpenCV DX9).v4p" nodename="ImageQuad (OpenCV DX9)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="660" top="5880" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Image" visible="1">
-   </PIN>
-   <PIN pinname="Layer" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="11" srcpinname="Output" dstnodeid="12" dstpinname="Image">
-   </LINK>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InABox" id="13">
-   <BOUNDS type="Node" left="660" top="6465" width="100" height="100">
-   </BOUNDS>
-   <BOUNDS type="Box" left="660" top="6465" width="7860" height="5655">
-   </BOUNDS>
-   <BOUNDS type="Window" left="10515" top="9825" width="6240" height="5010">
-   </BOUNDS>
-   <PIN pinname="Layers" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="12" srcpinname="Layer" dstnodeid="13" dstpinname="Layers">
-   </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="14" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Node" left="3375" top="5715" width="0" height="0">
    </BOUNDS>
@@ -223,5 +203,25 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="11" srcpinname="On Receive" dstnodeid="14" dstpinname="Y Input Value">
+   </LINK>
+   <NODE systemname="AsTexture (OpenCV)" filename="%VVVV%\imagepack\lib\nodes\plugins\VVVV.Nodes.OpenCV.dll" nodename="AsTexture (OpenCV)" componentmode="Hidden" id="17">
+   <BOUNDS type="Node" left="660" top="6060" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Image" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="11" srcpinname="Output" dstnodeid="17" dstpinname="Image">
+   </LINK>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="18" systemname="IOBox (Node)">
+   <BOUNDS type="Node" left="645" top="6585" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="645" top="6585" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Texture Out|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="17" srcpinname="Texture Out" dstnodeid="18" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Shoot">
    </LINK>
    </PATCH>

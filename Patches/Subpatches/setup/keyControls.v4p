@@ -436,4 +436,22 @@
    </LINK>
    <LINK srcnodeid="0" srcpinname="Output" dstnodeid="3" dstpinname="Input">
    </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="31" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="7080" top="2430" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="7080" top="2430" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Key">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="30" srcpinname="Key" dstnodeid="31" dstpinname="Input String">
+   </LINK>
    </PATCH>

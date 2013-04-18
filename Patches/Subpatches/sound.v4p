@@ -803,13 +803,13 @@
    </PIN>
    <PIN pinname="Filename" visible="1">
    </PIN>
-   <PIN pinname="Device" slicecount="1" values="|default device|">
+   <PIN pinname="Device" slicecount="1" values="|DigitalOutput-1 (NVIDIA High Definition Audio)|">
    </PIN>
    <PIN pinname="Play Mode" slicecount="1" values="2D">
    </PIN>
    <PIN pinname="Stop" slicecount="1" visible="1" values="0">
    </PIN>
-   <PIN pinname="Volume" visible="1">
+   <PIN pinname="Volume" visible="1" slicecount="1" values="1">
    </PIN>
    <PIN pinname="Pause" slicecount="1" values="0">
    </PIN>
@@ -820,8 +820,6 @@
    <PIN pinname="Speed" visible="1" slicecount="1" values="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="112" srcpinname="Position Out" dstnodeid="84" dstpinname="Volume">
-   </LINK>
    <LINK srcnodeid="124" srcpinname="Output" dstnodeid="84" dstpinname="Play" linkstyle="PolyLine">
    </LINK>
    <LINK srcnodeid="129" srcpinname="Y Output Value" dstnodeid="84" dstpinname="Minimal Distance">
@@ -861,5 +859,33 @@
    <LINK srcnodeid="160" srcpinname="Output String" dstnodeid="159" dstpinname="String Value">
    </LINK>
    <LINK srcnodeid="159" srcpinname="Enum" dstnodeid="135" dstpinname="Receive String">
+   </LINK>
+   <NODE systemname="MonoFlop (Animation)" nodename="MonoFlop (Animation)" componentmode="Hidden" id="161">
+   <BOUNDS type="Node" left="7410" top="6660" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Set" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Time" slicecount="1" values="2">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="97" srcpinname="Y Output Value" dstnodeid="161" dstpinname="Set">
+   </LINK>
+   <NODE systemname="OR (Boolean)" nodename="OR (Boolean)" componentmode="Hidden" id="162">
+   <BOUNDS type="Node" left="6570" top="7230" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="112" srcpinname="Position Out" dstnodeid="162" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="161" srcpinname="Output" dstnodeid="162" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="162" srcpinname="Output" dstnodeid="84" dstpinname="Volume">
    </LINK>
    </PATCH>

@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.dtd" >
-   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\modules\Invert+Refine (EX9.Texture Filter).v4p" systemname="Invert+Refine (EX9.Texture Filter)" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Contributions\modules\Invert+Refine (EX9.Texture Filter).v4p">
-   <BOUNDS height="8340" left="17130" top="7485" type="Window" width="13740">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Contributions\effects\Invert+Refine\Invert+Refine (EX9.Texture Filter).v4p" systemname="Invert+Refine (EX9.Texture Filter)" filename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\Contributions\modules\Invert+Refine (EX9.Texture Filter).v4p">
+   <BOUNDS height="8340" left="630" top="3810" type="Window" width="13740">
    </BOUNDS>
    <NODE componentmode="InABox" id="19" nodename="IOBox (Node)" systemname="IOBox (Node)">
    <BOUNDS height="0" left="1125" top="135" type="Node" width="0">
@@ -59,6 +59,8 @@
    </PIN>
    <PIN pinname="Format" visible="1">
    </PIN>
+   <PIN pinname="Level" slicecount="1" values="0">
+   </PIN>
    </NODE>
    <NODE componentmode="Hidden" id="16" nodename="Vector (2d Join)" systemname="Vector (2d Join)">
    <BOUNDS height="0" left="1350" top="1860" type="Node" width="0">
@@ -103,7 +105,7 @@
    </PIN>
    </NODE>
    <NODE componentmode="Hidden" id="12" nodename="AND (Boolean)" systemname="AND (Boolean)">
-   <BOUNDS height="0" left="4365" top="1170" type="Node" width="0">
+   <BOUNDS height="0" left="4350" top="1125" type="Node" width="0">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1" slicecount="1" values="1">
    </PIN>
@@ -141,6 +143,8 @@
    </PIN>
    </NODE>
    <LINK dstnodeid="12" dstpinname="Input 2" srcnodeid="11" srcpinname="Y Output Value">
+   <LINKPOINT x="4710" y="540">
+   </LINKPOINT>
    </LINK>
    <INFO author="unc" description="Color inversion" tags="fx">
    </INFO>
@@ -197,6 +201,8 @@
    </LINKPOINT>
    </LINK>
    <LINK dstnodeid="18" dstpinname="Enabled" srcnodeid="12" srcpinname="Output">
+   <LINKPOINT x="3045" y="2010">
+   </LINKPOINT>
    </LINK>
    <NODE componentmode="InABox" id="0" nodename="IOBOX (VALUE ADVANCED)" systemname="IOBox (Value Advanced)">
    <BOUNDS height="0" left="5175" top="2535" type="Node" width="0">
@@ -295,7 +301,7 @@
    </PIN>
    <PIN pinname="Layer" visible="1">
    </PIN>
-   <PIN pinname="R XY" visible="1">
+   <PIN pinname="R XY" visible="1" slicecount="2" values="0,0">
    </PIN>
    <PIN pinname="Mesh" visible="1">
    </PIN>
@@ -303,13 +309,13 @@
    </PIN>
    <PIN pinname="Factor " visible="1" slicecount="4" values="1,1,1,1">
    </PIN>
-   <PIN pinname="Invert" visible="1">
+   <PIN pinname="Invert" visible="1" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="tex0" visible="1">
+   <PIN pinname="tex0" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Compiled" visible="1">
    </PIN>
-   <PIN pinname="tex1" visible="1">
+   <PIN pinname="tex1" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Grayscale" slicecount="1" values="0">
    </PIN>
@@ -330,14 +336,10 @@
    </LINK>
    <LINK srcnodeid="0" srcpinname="Y Output Value" dstnodeid="21" dstpinname="Invert">
    </LINK>
-   <LINK srcnodeid="21" srcpinname="Compiled" dstnodeid="12" dstpinname="Input 1" linkstyle="VHV">
-   <LINKPOINT x="5196" y="4518">
+   <LINK srcnodeid="21" srcpinname="Compiled" dstnodeid="12" dstpinname="Input 1" linkstyle="PolyLine">
+   <LINKPOINT x="4650" y="4365">
    </LINKPOINT>
-   <LINKPOINT x="5712" y="4356">
-   </LINKPOINT>
-   <LINKPOINT x="5523" y="924">
-   </LINKPOINT>
-   <LINKPOINT x="4554" y="762">
+   <LINKPOINT x="3450" y="765">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="26" srcpinname="Y Output Value" dstnodeid="21" dstpinname="AdjustR">

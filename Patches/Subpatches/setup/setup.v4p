@@ -91,9 +91,9 @@
    </BOUNDS>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="149" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="4890" top="3060" width="0" height="0">
+   <BOUNDS type="Node" left="4380" top="3120" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="4890" top="3060" width="480" height="480">
+   <BOUNDS type="Box" left="4380" top="3120" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -134,4 +134,22 @@
    <BOUNDS type="Window" left="1560" top="2430" width="15675" height="8475">
    </BOUNDS>
    </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="152" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="4920" top="3105" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4920" top="3105" width="435" height="300">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Key">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="148" srcpinname="Key" dstnodeid="152" dstpinname="Input String">
+   </LINK>
    </PATCH>

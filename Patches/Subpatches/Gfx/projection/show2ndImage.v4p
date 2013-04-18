@@ -53,9 +53,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="7" systemname="IOBox (Node)">
-   <BOUNDS type="Node" left="1635" top="735" width="0" height="0">
+   <BOUNDS type="Node" left="1605" top="2130" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="1635" top="735" width="795" height="240">
+   <BOUNDS type="Box" left="1605" top="2130" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Input Node" slicecount="1" values="||">
    </PIN>
@@ -64,10 +64,40 @@
    <PIN pinname="Output Node" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="1" dstpinname="Input Node">
-   </LINK>
-   <LINK srcnodeid="7" srcpinname="Output Node" dstnodeid="0" dstpinname="Texture">
-   </LINK>
    <LINK srcnodeid="6" srcpinname="Y Output Value" dstnodeid="3" dstpinname="Alpha">
+   </LINK>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="9" systemname="IOBox (Node)">
+   <BOUNDS type="Node" left="1770" top="2670" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1770" top="2670" width="795" height="240">
+   </BOUNDS>
+   <PIN pinname="Input Node" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Texture Final|">
+   </PIN>
+   <PIN pinname="Output Node" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Invert+Refine (EX9.Texture Filter)" filename="..\..\..\..\Contributions\effects\Invert+Refine\Invert+Refine (EX9.Texture Filter).v4p" nodename="Invert+Refine (EX9.Texture Filter)" componentmode="Hidden" id="11">
+   <BOUNDS type="Node" left="1620" top="3435" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Window" left="7410" top="3825" width="13740" height="8340">
+   </BOUNDS>
+   <PIN pinname="Tex1" visible="1">
+   </PIN>
+   <PIN pinname="Tex0" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="AdjustG" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="9" srcpinname="Output Node" dstnodeid="11" dstpinname="Tex1">
+   </LINK>
+   <LINK srcnodeid="7" srcpinname="Output Node" dstnodeid="11" dstpinname="Tex0">
+   </LINK>
+   <LINK srcnodeid="11" srcpinname="Output" dstnodeid="0" dstpinname="Texture">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Layer" dstnodeid="1" dstpinname="Input Node">
    </LINK>
    </PATCH>

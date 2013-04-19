@@ -19,9 +19,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="14" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="15" top="10275" width="825" height="270">
+   <BOUNDS type="Node" left="15" top="10410" width="825" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="15" top="10275" width="11880" height="480">
+   <BOUNDS type="Box" left="15" top="10410" width="11880" height="480">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" encoded="0" values="PROCESSING">
    </PIN>
@@ -90,12 +90,12 @@
    </NODE>
    <LINK srcnodeid="207" srcpinname="Input Value" dstnodeid="191" dstpinname="XY">
    </LINK>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="FullScreen" id="226" stayontop="1">
+   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="226" stayontop="1" border="0">
    <BOUNDS type="Node" left="6975" top="22290" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="6975" top="22290" width="4770" height="3690">
    </BOUNDS>
-   <BOUNDS type="Window" left="37650" top="3855" width="9945" height="8445">
+   <BOUNDS type="Window" left="36060" top="3585" width="9945" height="8445">
    </BOUNDS>
    <PIN pinname="Projection" visible="1" slicecount="1" values="||">
    </PIN>
@@ -107,9 +107,9 @@
    </PIN>
    <PIN pinname="Actual Backbuffer Height" visible="1">
    </PIN>
-   <PIN pinname="Backbuffer Width" slicecount="1" values="814">
+   <PIN pinname="Backbuffer Width" slicecount="1" values="1200">
    </PIN>
-   <PIN pinname="Backbuffer Height" slicecount="1" values="616">
+   <PIN pinname="Backbuffer Height" slicecount="1" values="1920">
    </PIN>
    <PIN pinname="Windowed Antialiasing Quality Level" slicecount="1" values="8">
    </PIN>
@@ -250,10 +250,10 @@
    </LINK>
    <LINK srcnodeid="214" srcpinname="target" dstnodeid="243" dstpinname="Input 1" linkstyle="PolyLine">
    </LINK>
-   <NODE systemname="gfx_monitor" filename="subpatches\Gfx\gfx_monitor.v4p" nodename="subpatches\Gfx\gfx_monitor.v4p" componentmode="Hidden" id="254">
+   <NODE systemname="gfx_monitor" filename="subpatches\Gfx\gfx_monitor.v4p" nodename="subpatches\Gfx\gfx_monitor.v4p" componentmode="InAWindow" id="254">
    <BOUNDS type="Node" left="6990" top="20520" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Window" left="225" top="1770" width="16665" height="14490">
+   <BOUNDS type="Window" left="4755" top="1875" width="21915" height="14490">
    </BOUNDS>
    <PIN pinname="Layer" visible="1">
    </PIN>

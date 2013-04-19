@@ -533,11 +533,11 @@
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
-   <PIN pinname="Brightness" slicecount="1" values="0">
+   <PIN pinname="Brightness" slicecount="1" values="-0.4">
    </PIN>
    <PIN pinname="Enabled" slicecount="1" values="1">
    </PIN>
-   <PIN pinname="Saturation" slicecount="1" values="0.7">
+   <PIN pinname="Saturation" slicecount="1" values="1.74">
    </PIN>
    <PIN pinname="Contrast" slicecount="1" values="0">
    </PIN>
@@ -545,11 +545,9 @@
    </PIN>
    <PIN pinname="Saturation Balance" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Hue" slicecount="1" values="-0.01">
+   <PIN pinname="Hue" slicecount="1" values="0">
    </PIN>
    </NODE>
-   <LINK srcnodeid="30" srcpinname="Texture Out" dstnodeid="42" dstpinname="Input">
-   </LINK>
    <LINK srcnodeid="42" srcpinname="Output" dstnodeid="1" dstpinname="Input Node">
    </LINK>
    <NODE systemname="Levels (EX9.Texture Filter)" filename="%VVVV%\addonpack\lib\nodes\modules\TextureFX\Filter\Levels\Levels (EX9.Texture Filter).v4p" nodename="Levels (EX9.Texture Filter)" componentmode="Hidden" id="43">
@@ -593,5 +591,9 @@
    <LINK srcnodeid="3" srcpinname="Output" dstnodeid="16" dstpinname="Input">
    </LINK>
    <LINK srcnodeid="16" srcpinname="Output" dstnodeid="0" dstpinname="Shoot">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Texture Out" dstnodeid="42" dstpinname="Input">
+   <LINKPOINT x="690" y="5760">
+   </LINKPOINT>
    </LINK>
    </PATCH>

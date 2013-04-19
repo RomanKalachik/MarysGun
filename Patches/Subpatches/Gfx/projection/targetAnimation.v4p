@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
-   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\patches\subpatches\targetAnimation.v4p" systemname="targetAnimation" filename="C:\Users\julian\Documents\My Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\targetAnimation.v4p" bgcolor="14935011">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
+   <PATCH nodename="C:\Users\julian\Dropbox\__FH\Bachelor\Entwicklung\MarysGun\Patches\subpatches\Gfx\projection\targetAnimation.v4p" systemname="targetAnimation" filename="C:\Users\julian\Documents\My Dropbox\__FH\Bachelor\Entwicklung\patches\marys gun\subpatches\targetAnimation.v4p" bgcolor="14935011">
    <BOUNDS type="Window" left="19200" top="0" width="19200" height="21150">
    </BOUNDS>
    <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="Hidden" id="0">
@@ -1597,7 +1597,7 @@
    <NODE systemname="Transform (Transform 2d)" nodename="Transform (Transform 2d)" componentmode="Hidden" id="216">
    <BOUNDS type="Node" left="15045" top="10845" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Transform In" visible="1">
+   <PIN pinname="Transform In" visible="1" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
@@ -1708,4 +1708,18 @@
    </LINK>
    <LINK srcnodeid="212" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 1">
    </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="233" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="0" top="0" width="360" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="0" width="360" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="tar">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
    </PATCH>

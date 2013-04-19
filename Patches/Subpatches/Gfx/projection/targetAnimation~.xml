@@ -1681,13 +1681,13 @@
    </PIN>
    <PIN pinname="Inner Radius" slicecount="1" visible="1" values="1.15">
    </PIN>
-   <PIN pinname="Resolution" slicecount="1" values="60">
+   <PIN pinname="Resolution" slicecount="1" values="40">
    </PIN>
    <PIN pinname="Cycles" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Constant (EX9.Effect)" filename="%VVVV%\lib\nodes\effects\Constant.fx" nodename="Constant (EX9.Effect)" componentmode="Hidden" id="232">
-   <BOUNDS type="Node" left="4845" top="13530" width="100" height="100">
+   <BOUNDS type="Node" left="5010" top="13500" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Mesh" visible="1">
    </PIN>
@@ -1705,5 +1705,7 @@
    <LINK srcnodeid="163" srcpinname="Output 2" dstnodeid="231" dstpinname="Inner Radius">
    </LINK>
    <LINK srcnodeid="163" srcpinname="Output 3" dstnodeid="231" dstpinname="Cycles">
+   </LINK>
+   <LINK srcnodeid="212" srcpinname="Layer" dstnodeid="7" dstpinname="Layer 1">
    </LINK>
    </PATCH>
